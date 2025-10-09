@@ -1,0 +1,395 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 1%;
+    max-width: 1400px;
+    margin: 0 auto;
+    height: auto;
+}
+
+.wrapper {
+    max-width: 100%;
+    margin: 0 auto;
+    background-color: rgb(246, 185, 185);
+    height: auto;
+    padding-bottom: 10%;
+}
+
+.wraper {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0;
+    background-color: blanchedalmond;
+    padding-bottom: 10%;
+}
+hr{
+    width: 90%;
+    margin: 1% auto;
+    height: 1px; /* толщина */
+    background-color: gray; /* цвет */
+    border: none; /* убираем стандартную границу */
+}
+/* ====== HEADER ================ */
+header {
+    display: flex;
+    justify-content: space-around;
+    height: 100px;
+    background-color: rgb(226, 199, 244);
+}
+
+header>ul {
+    display: flex;
+    padding: 1%;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    max-width: 99%;
+    margin: 0 auto;
+    font-size: 22px;
+}
+
+/* UL */
+
+ul {
+    /* list-style-type: none; */
+    padding: 1%;
+    line-height: 1.2;
+    font-size: 18px;
+}
+
+ul>li {
+    margin-left: 10%;
+    padding: 0.5%;
+}
+.lis>a{
+    padding: 2%;
+    width: 96%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+
+
+ol{
+    margin-left: 5%;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+
+/* a -sylka */
+
+a {
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+    transition: transform 1s ease;
+    color: rgb(51, 2, 84);
+}
+
+a:hover {
+    transform: scale(0.9);
+    color: rgb(199, 199, 1)
+}
+
+/* ulHome */
+
+.ulHome {
+    display: flex;
+    gap: 7%;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    justify-content: center;
+    width: 90%;
+}
+
+.zagolowok {
+    width: 200px;
+    height: 292px;
+    margin-bottom: 10%;
+}
+
+.zagolowok>img {
+    width: 100%;
+    height: 100%;
+    transition: transform 0.3s ease, border 0.3s ease;
+    outline: 0px solid black;
+    cursor: pointer;
+}
+
+.zagolowok:hover {
+    transform: scale(0.95);
+    /* outline: 5px solid black; */
+}
+
+/* IMG/ VIDEO prezent */
+.video {
+    width: 80%;
+    height: 36em;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    margin: 2% auto;
+}
+.prezent{
+    width: 80%;
+    height: 54em;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    margin: 2% auto;
+}
+.pdf{
+    width: 60%;
+    height: 54em;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    margin: 2% auto;
+}
+
+.video iframe,
+.prezent iframe,
+.pdf iframe {
+    width: 100%;
+    height: 90%;
+}
+
+.image {
+    max-width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 2% auto;
+    position: relative;
+}
+.imageTwo{
+    display: flex;
+    max-width: 98%;
+}
+.imageTwo>img{
+    width: 50%;
+}
+.image>img {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.video>iframe {
+    width: 80%;
+    margin: 0 auto;
+    height: 32em;
+}
+
+/* DIV */
+
+.two {
+  display: flex;
+  width: 100%;
+  margin: 1%;
+}
+
+.two > div {
+  flex: 1; /* Равномерно делит пространство (по 50%) */
+  padding: 1%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* или 'space-evenly', если нужно */
+}
+
+/* -------------- POKAZ OTWETA OPTIMA -------------*/
+.hint2-container {
+   background-color: #d7e5f0;
+   border-radius: 10px;
+   border: 1px solid #b9d6f3;
+   padding: 2px 5px;
+   margin: 10px auto;
+   cursor: pointer;
+   width: 90%;
+   position: relative;
+   overflow: hidden;
+}
+
+/* Заголовок блока */
+.hint2-header {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   position: relative;
+   font-size: 21px;
+   color: #1c7505;
+   /* font-weight: 600; */
+}
+
+/* Контент с текстом */
+.hint2-content {
+   max-height: 0;
+   overflow: hidden;
+   transition: max-height 0.6s ease-in-out, padding 0.3s ease-in-out;
+   padding: 0 2px 0 2px;
+   opacity: 0; /* Для плавного появления и исчезновения текста */
+   transition: opacity 0.3s ease-in-out, max-height 0.6s ease-in-out, padding 0.6s ease-in-out;
+}
+.hint2-content p{
+   font-size: 18px;
+}
+
+
+/* Раскрытие блока */
+.hint2-container.active .hint2-content {
+   padding: 0 2px 5px 2px;
+   max-height: 100000px; /* Достаточно для раскрытия текста */
+   opacity: 1; /* Плавное появление */
+   max-width: 100%;
+}
+/* Czest 2 raskrytia bloka */
+.h-container {
+   background-color: #e8f4fd;
+   border-radius: 10px;
+   border: 1px solid #b9d6f3;
+   padding: 5px 20px;
+   margin: 20px auto;
+   cursor: pointer;
+   width: 98%;
+   position: relative;
+   overflow: hidden;
+}
+
+/* Заголовок блока */
+.h-header {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   position: relative;
+   font-size: 24px;
+   color: #230575;
+   font-weight: 600;
+   text-align: center;
+}
+.h-content {
+   max-height: 0;
+   overflow: hidden;
+   transition: max-height 0.6s ease-in-out, padding 0.3s ease-in-out;
+   padding: 0 2px 0 2px;
+   opacity: 0; /* Для плавного появления и исчезновения текста */
+   transition: opacity 0.3s ease-in-out, max-height 0.6s ease-in-out, padding 0.6s ease-in-out;
+}
+.h-content p{
+   font-size: 22px;
+}
+
+/*  */
+/* Раскрытие блока */
+.h-container.active .h-content {
+   padding: 0 2px 5px 2px;
+   max-height: 1000000px; /* Достаточно для раскрытия текста */
+   opacity: 1; /* Плавное появление */
+   max-width: 100%;
+}
+
+
+
+/* ---------- END POKAZ OTWETA OPTIMA ------------------ */
+
+.zoomable {
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    position: relative;
+}
+
+.zoomable.zoomed {
+    transform: scale(1.5); /* увеличиваем картинку в 2 раза */
+    z-index: 999;
+    position:absolute;
+    margin: 0 auto;
+    left: 25%;
+}
+
+/*  */
+
+    .icon {
+      background-color: antiquewhite;
+      width: 170px;
+      height: 260px;
+      margin: 2% auto;
+      display: flex;              /* включаем flex */
+      flex-direction: column;     /* элементы сверху вниз */
+      justify-content: center;    /* центрируем по вертикали */
+      align-items: center;        /* центрируем по горизонтали */
+      text-align: center;
+    }
+
+    .icon > a > img {
+      width: 60%;   /* пропорционально */
+      height: auto;
+      margin: 20px 0 0 0;    /* убираем лишние отступы */
+    }
+
+    .icon > p {
+      margin: 5px 0 30px 0; /* чуть отступа сверху */
+      text-align: center;
+    }
+.audio{
+    display: flex;
+    width: 30%;
+    margin: 1% auto;
+}
+/* table */
+
+table{
+    border: 1px solid black;
+    width: 96%;
+    margin: 1% auto;
+    /* text-align: center; */
+    border-collapse: collapse;
+    font-size: 18px;
+}
+th,td{
+    border: 1px solid black;
+     padding: 0.5%;
+     width: 10%;
+     max-width: 14%;
+}
+td>ul>li{
+     font-size: 13px;
+}
+td>ul>li>em{
+     color: blue;
+}
+table{
+    text-align: center;
+}
+th{
+    background-color: rgb(215, 229, 224);
+}
+td{
+    background-color: rgb(230, 206, 192);
+}
+
+/* FLEX */
+.flex{
+    display: flex;
+    width: 100%;
+    gap: 3px;
+}
+.flex>div{
+    width: 100%;
+}
+
+.okno{
+    display: inline-block;
+  width: 50px;
+  height: 25px;
+  border: 2px solid black;
+  vertical-align: middle;
+}

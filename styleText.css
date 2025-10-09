@@ -1,0 +1,170 @@
+h1{
+    color: red;
+}
+h2{
+    font-size: 34px;
+    color: rgb(156, 4, 156);
+}
+h3{
+    font-size: 30px;
+    color: rgb(7, 145, 147);
+}
+h4{
+    font-size: 26px;
+    color: rgb(143, 6, 130);
+}
+h5{
+    font-size: 24px;
+    color: rgb(214, 43, 1);
+}
+h6{
+    font-size: 20px;
+    color: rgb(89, 0, 255);
+}
+
+h1,h2,h3,h4,h5,h6{
+    text-align: center;
+    padding-top: 1.5%;
+}
+
+
+/*  */
+.text{
+    width: 90%;
+    margin: 0 auto;
+    font-size: 19px;
+}
+p{
+    font-size: 18px;
+    margin: 1%;
+    text-indent: 35px;
+    line-height: 1.3;
+}
+.p{
+    font-size: 19px;
+    text-indent: 0px;
+}
+
+.p16{
+    font-size: 16px;
+}
+.texts>p{
+    line-height: 1.3;
+    font-size: 18px;
+    margin: 1px 50px;
+}
+.p23{
+    font-size: 23px;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+}
+
+.centr{
+    text-align: center;
+    margin: 0 auto;
+}
+
+.red{
+    color: red;
+}
+.blue{
+    color: blue;
+}
+.green{
+    color: green;
+}
+.violet{
+    color: blueviolet;
+}
+div{
+    margin: 1%;
+}
+.orang{
+    color: rgb(195, 127, 2);
+}
+/* AUDIO SŁOWO */
+
+.playable {
+      cursor: pointer;
+      color: blue;
+      /* text-decoration: underline; */
+      margin: 1px;
+      display: inline-block;
+    }
+
+/* TEXT */
+
+.text{
+    border: 3px rgb(3, 92, 3) solid;
+    padding: 1%;
+    width: 84%;
+    margin: 1% auto;
+    
+}
+.text>p,li,ol{
+    font-size: 22px;
+    
+}
+.text>ul{
+    font-size: 17px;
+    margin-top: -10px;
+}
+
+.bordGreen{
+    border: 2px green solid;
+    padding: 1%;
+    width: 60%;
+    margin: 1% auto;
+}
+
+.title>p>a{
+    color: rgb(32, 90, 152);
+    padding: 0;
+    margin: 0;
+
+}
+
+.fonYellow{
+    border: 2px solid yellow;
+    background-color: #fbfbd5; /* нежно-жёлтый фон */
+    padding: 3px;
+    border-radius: 8px; /* скруглённые углы, если нужно */
+}
+.fonOrang{
+    border: 2px solid orange;
+    background-color: #f4d3a8; /* нежно-жёлтый фон */
+    padding: 3px;
+    border-radius: 8px; /* скруглённые углы, если нужно */
+}
+/* TABLE */
+.ul>li>a{
+    font-size: 18px;
+}
+.ul{
+    text-align: left;
+}
+
+.zagolRed{
+    border-color: rgb(150, 6, 6);
+    background-color: rgb(187, 7, 7); /* красный фон */
+    
+    font-weight: 400;
+    text-align: center;
+    padding: 1%;   
+}
+.zagolRed>p{
+    font-size: 1.8em;
+    color: white;
+    text-transform: uppercase;
+}
+.p35{
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.p30{
+    font-size: 25px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 100%;
+}
