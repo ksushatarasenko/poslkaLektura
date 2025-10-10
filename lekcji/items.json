@@ -1,38 +1,38 @@
 [
   {
     "id": "03",
-    "audio": "../audio/kojko.mp4",
+    "audio": "./audio/kojko.mp4",
     "time": 1,
     "page": "../strKojko/3.png",
     "width": 900
   },
   {
     "id": "04",
-    "audio": "../audio/kojko.mp4",
+    "audio": "./audio/kojko.mp4",
     "time": 114,
     "page": "../strKojko/4.png"
   },
   {
     "id": "05",
-    "audio": "../audio/kojko.mp4",
+    "audio": "./audio/kojko.mp4",
     "time": 186,
     "page": "../strKojko/5.png"
   },
   {
     "id": "06",
-    "audio": "../audio/kojko.mp4",
+    "audio": "./audio/kojko.mp4",
     "time": 269,
     "page": "../strKojko/6.png"
   },
   {
     "id": "07",
-    "audio": "../audio/kojko.mp4",
+    "audio": "./audio/kojko.mp4",
     "time": 340,
     "page": "../strKojko/7.png"
   },
   {
     "id": "08",
-    "audio": "../audio/kojko.mp4",
+    "audio": "./audio/kojko.mp4",
     "time": 421,
     "page": "../strKojko/8.png"
   },
