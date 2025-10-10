@@ -7,12 +7,17 @@
     <title>Lekcja01</title>
     <link rel="stylesheet" href="../style.css">
     <link rel="stylesheet" href="../styleText.css">
+    <style>
+        iframe>img{
+            width: 80%;
+        }
+    </style>    
 </head>
 
 <body>
     <header>
 
-         <ul class="header">
+        <ul class="header">
             <li><a href="https://ksushatarasenko.github.io/Polska_szkola_Kyrylo/">Home</a></li>
             <li><a href="../index.html">Lektura</a></li>
         </ul>
@@ -281,7 +286,7 @@
             </div>
         </div>
 
-        
+
         <div>
             <p>Каштелян (по-польски <b>kasztelan</b>) — это исторический титул и должность в средневековой Польше.</p>
             <p>Слово происходит от łac. castellanus — «управляющий замком (гродом)».</p>
@@ -292,19 +297,68 @@
                 grodu (городища), который старается dbać o mieszkańców (заботиться о жителях), choć bywa naiwny i
                 łatwowierny (хотя бывает наивным и доверчивым).</p>
         </div>
-        <div class="prezent">
-            <iframe src="https://1drv.ms/p/c/53bd6a3ee8a255fe/IQQg4tcHyYM_TaHl0j6ASG2rAUglaPAO4mWhDp1gmgy7CQc"
-                width="402" height="327" frameborder="0" scrolling="no"></iframe>
+        <!-- ksiazka -->
+        <div>
+            <div class="pages">
+                <h6>Strona + </h6>
+                <audio id="player" controls></audio>
+                <iframe id="pageFrame" width="100%" height="1000px" src="../strKojko/3.png"></iframe>
+                
+                <!-- Кнопки страниц -->
+                <div class="flex">
+                    <div class="column">
+                        <button onclick="playById('03')">Strona 3</button>
+                        <button onclick="playById('04')">Strona 4</button>
+                        <button onclick="playById('05')">Strona 5</button>
+                        <button onclick="playById('06')">Strona 6</button>
+                        <button onclick="playById('07')">Strona 7</button>
+                        <button onclick="playById('08')">Strona 8</button>
+                        <button onclick="playById('09')">Strona 9</button>
+                        <button onclick="playById('10')">Strona 10</button>
+                        <button onclick="playById('11')">Strona 11</button>
+                        
+                    </div>
+                    <div class="column">
+                        <button onclick="playById('12')">Strona 12</button>
+                        <button onclick="playById('13')">Strona 13</button>
+                        <button onclick="playById('14')">Strona 14</button>
+                        <button onclick="playById('15')">Strona 15</button>
+                        <button onclick="playById('16')">Strona 16</button>
+                        <button onclick="playById('17')">Strona 17</button>
+                        <button onclick="playById('18')">Strona 18</button>
+                        <button onclick="playById('19')">Strona 19</button>
+                        <button onclick="playById('20')">Strona 20</button>                        
+                        
+                    </div>
+                    <div class="column">
+                        <button onclick="playById('22')">Strona 21</button>
+                        <button onclick="playById('21')">Strona 22</button>
+                        <button onclick="playById('23')">Strona 23</button>
+                        <button onclick="playById('24')">Strona 24</button>
+                        <button onclick="playById('25')">Strona 25</button>
+                        <button onclick="playById('26')">Strona 26</button>
+                        <button onclick="playById('27')">Strona 27</button>
+                        <button onclick="playById('28')">Strona 28</button>
+                        <button onclick="playById('29')">Strona 29</button>
+                        
+                    </div>
+                    <div class="column">
+                        <button onclick="playById('30')">Strona 30</button>
+                        <button onclick="playById('31')">Strona 31</button>
+                        <button onclick="playById('32')">Strona 32</button>
+                        <button onclick="playById('33')">Strona 33</button>
+                        <button onclick="playById('34')">Strona 34</button>
+                        <button onclick="playById('35')">Strona 35</button>
+                        <button onclick="playById('36')">Strona 36</button>
+                        <button onclick="playById('37')">Strona 37</button>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="prezent">
-            <iframe src="../image/kajko-i-kokosz-szkola-latania-1975.pdf" frameborder="0"></iframe>
-        </div>
-        <div class="video">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/sSSZkOQBZ7E?si=cNClgwWav_VtmML5"
-                title="YouTube video player" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-        </div>
+
+
+        <!-- end ksiazka -->
+
         <!-- kajko i kokosz szkoła latania - zadanie -->
         <div>
             <div class="zagolRed">
@@ -322,13 +376,18 @@
                 <p>➡️ Szkoła była prowadzona przez czarownice , na czele których stała dyrektorka oraz grono
                     instruktorów uczących teorii i praktyki latania.</p><br>
                 <p><b>Jakie plany miał Hegemon?</b></p>
-                <p>➡️ Jego głównym planem było podstępne wywabienie Mirmiła, Kajka i Kokosza z grodu, aby pod ich nieobecność z łatwością zdobyć i złupić Mirmiłowo.</p><br>
+                <p>➡️ Jego głównym planem było podstępne wywabienie Mirmiła, Kajka i Kokosza z grodu, aby pod ich
+                    nieobecność z łatwością zdobyć i złupić Mirmiłowo.</p><br>
                 <p><b>Jak Kajko i Kokosz poradzili sobie ze Zbójcerzami?</b></p>
-                <p>➡️ Wrócili razem z Mirmiłem w ostatniej chwili. Wykorzystując resztki magicznej maści, użyli pnia-tarana jako latającego pocisku i szarżując na nim, rozbili armię zaskoczonych Zbójcerzy.</p>
-                <br><p><b>Jaką rolę odegrała Lubawa?</b></p>
-                <p>➡️ Była rozsądną i stanowczą żoną Mirmiła. Starała się studzić jego zapędy i panikę, pełniąc rolę głosu rozsądku w grodzie .</p><br>
+                <p>➡️ Wrócili razem z Mirmiłem w ostatniej chwili. Wykorzystując resztki magicznej maści, użyli
+                    pnia-tarana jako latającego pocisku i szarżując na nim, rozbili armię zaskoczonych Zbójcerzy.</p>
+                <br>
+                <p><b>Jaką rolę odegrała Lubawa?</b></p>
+                <p>➡️ Była rozsądną i stanowczą żoną Mirmiła. Starała się studzić jego zapędy i panikę, pełniąc rolę
+                    głosu rozsądku w grodzie .</p><br>
                 <p><b>Dlaczego „Szkoła latania” jest tak lubiana?</b></p>
-                <p>➡️ Ponieważ łączy humor, przygodę i przekazuje uniwersalne przesłanie o sile przyjaźni i odwadze w realizacji marzeń.</p>
+                <p>➡️ Ponieważ łączy humor, przygodę i przekazuje uniwersalne przesłanie o sile przyjaźni i odwadze w
+                    realizacji marzeń.</p>
             </div>
             <p class="p35">✍️ Przykładowe tematy wypracowań oraz szkice planów</p>
             <div class="text">
@@ -382,7 +441,7 @@
                 <p><b>Plan wypracowania:</b></p>
                 <ol>
                     <li>
-                        <b>Wstęp</b> –  Opis konfliktu między Mirmiłowem a Zbójcerzami.
+                        <b>Wstęp</b> – Opis konfliktu między Mirmiłowem a Zbójcerzami.
                     </li>
                     <li>
                         <b>Rozwinięcie</b>
@@ -398,7 +457,7 @@
                 <p><b>Plan wypracowania:</b></p>
                 <ol>
                     <li>
-                        <b>Wstęp</b> –  Krótkie przedstawienie komiksu i jego autora.
+                        <b>Wstęp</b> – Krótkie przedstawienie komiksu i jego autora.
                     </li>
                     <li>
                         <b>Rozwinięcie</b>
@@ -416,19 +475,16 @@
 
         <h5><a href="https://pisupisu.pl/klasa4/kajko-i-kokosz-szkola-latania" target="_blank">Zadanie „Kajko i Kokosz.
                 Szkoła latania” >>></a></h5>
-        
-
-
-
-
-
-
-
-
         </div>
     </main>
+    <script>
+        const params = new URLSearchParams(window.location.search);
+        const imgSrc = params.get('img') || '3.png';
+        document.getElementById('pageImg').src = imgSrc;
+    </script>
     <script src="../script.js"></script>
     <script src="../scriptAudio.js"></script>
+    <script src="./player.js"></script>
 </body>
 
 </html>

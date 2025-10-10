@@ -17,3 +17,19 @@ function setTime(event, seconds) {
     audio.play();
   }
 }
+
+
+
+function playItem(index) {
+  const item = items[index];
+  const audio = document.getElementById('player');
+  const frame = document.getElementById('pageFrame');
+
+  audio.src = item.audio;
+  frame.src = item.page;
+
+  audio.onloadedmetadata = () => {
+    audio.currentTime = item.time;
+    audio.play();
+  };
+}

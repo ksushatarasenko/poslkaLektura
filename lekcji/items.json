@@ -1,0 +1,213 @@
+[
+  {
+    "id": "03",
+    "audio": "../audio/kojko.mp4",
+    "time": 1,
+    "page": "../strKojko/3.png",
+    "width": 900
+  },
+  {
+    "id": "04",
+    "audio": "../audio/kojko.mp4",
+    "time": 114,
+    "page": "../strKojko/4.png"
+  },
+  {
+    "id": "05",
+    "audio": "../audio/kojko.mp4",
+    "time": 186,
+    "page": "../strKojko/5.png"
+  },
+  {
+    "id": "06",
+    "audio": "../audio/kojko.mp4",
+    "time": 269,
+    "page": "../strKojko/6.png"
+  },
+  {
+    "id": "07",
+    "audio": "../audio/kojko.mp4",
+    "time": 340,
+    "page": "../strKojko/7.png"
+  },
+  {
+    "id": "08",
+    "audio": "../audio/kojko.mp4",
+    "time": 421,
+    "page": "../strKojko/8.png"
+  },
+  {
+    "id": "09",
+    "audio": "../audio/kojko.mp4",
+    "time": 505,
+    "page": "../strKojko/9.png"
+  },
+  {
+    "id": "10",
+    "audio": "../audio/kojko.mp4",
+    "time": 573,
+    "page": "../strKojko/10.png"
+  },
+  {
+    "id": "11",
+    "audio": "../audio/kojko.mp4",
+    "time": 640,
+    "page": "../strKojko/11.png"
+  },
+  {
+    "id": "12",
+    "audio": "../audio/kojko.mp4",
+    "time": 704,
+    "page": "../strKojko/12.png"
+  },
+  {
+    "id": "13",
+    "audio": "../audio/kojko.mp4",
+    "time": 760,
+    "page": "../strKojko/13.png"
+  },
+  {
+    "id": "14",
+    "audio": "../audio/kojko.mp4",
+    "time": 838,
+    "page": "../strKojko/14.png"
+  },
+  {
+    "id": "15",
+    "audio": "../audio/kojko.mp4",
+    "time": 924,
+    "page": "../strKojko/15.png"
+  },
+  {
+    "id": "16",
+    "audio": "../audio/kojko.mp4",
+    "time": 1039,
+    "page": "../strKojko/16.png"
+  },
+  {
+    "id": "17",
+    "audio": "../audio/kojko.mp4",
+    "time": 1119,
+    "page": "../strKojko/17.png"
+  },
+  {
+    "id": "18",
+    "audio": "../audio/kojko.mp4",
+    "time": 1197,
+    "page": "../strKojko/18.png"
+  },
+  {
+    "id": "19",
+    "audio": "../audio/kojko.mp4",
+    "time": 1296,
+    "page": "../strKojko/19.png"
+  },
+  {
+    "id": "20",
+    "audio": "../audio/kojko.mp4",
+    "time": 1381,
+    "page": "../strKojko/20.png"
+  },
+  {
+    "id": "21",
+    "audio": "../audio/kojko.mp4",
+    "time": 1460,
+    "page": "../strKojko/21.png"
+  },
+  {
+    "id": "22",
+    "audio": "../audio/kojko.mp4",
+    "time": 1537,
+    "page": "../strKojko/22.png"
+  },
+  {
+    "id": "23",
+    "audio": "../audio/kojko.mp4",
+    "time": 1622,
+    "page": "../strKojko/23.png"
+  },
+  {
+    "id": "24", 
+    "audio": "../audio/kojko.mp4",
+    "time": 1716,
+    "page": "../strKojko/24.png"
+  },
+  {
+    "id": "25",
+    "audio": "../audio/kojko.mp4",
+    "time": 1814,
+    "page": "../strKojko/25.png"
+  },
+  {
+    "id": "26",
+    "audio": "../audio/kojko.mp4",
+    "time": 1903,
+    "page": "../strKojko/26.png"
+  },
+  {
+    "id": "27",
+    "audio": "../audio/kojko.mp4",
+    "time": 1956,
+    "page": "../strKojko/27.png"
+  },
+  {
+    "id": "28",
+    "audio": "../audio/kojko.mp4",
+    "time": 2020,
+    "page": "../strKojko/28.png"
+  },
+  {
+    "id": "29",
+    "audio": "../audio/kojko.mp4",
+    "time": 2075,
+    "page": "../strKojko/29.png"
+  },
+  {
+    "id": "30",
+    "audio": "../audio/kojko.mp4",
+    "time": 2157,
+    "page": "../strKojko/30.png"
+  },
+  {
+    "id": "31",
+    "audio": "../audio/kojko.mp4",
+    "time": 2258,
+    "page": "../strKojko/31.png"
+  },
+  {
+    "id": "32",
+    "audio": "../audio/kojko.mp4",
+    "time": 2339,
+    "page": "../strKojko/32.png"
+  },
+  {
+    "id": "33",
+    "audio": "../audio/kojko.mp4",
+    "time": 2439,
+    "page": "../strKojko/33.png"
+  },
+  {
+    "id": "34",
+    "audio": "../audio/kojko.mp4",
+    "time": 2531,
+    "page": "../strKojko/34.png"
+  },
+  {
+    "id": "35",
+    "audio": "../audio/kojko.mp4",
+    "time": 2639,
+    "page": "../strKojko/35.png"
+  },
+  {
+    "id": "36",
+    "audio": "../audio/kojko.mp4",
+    "time": 2720,
+    "page": "../strKojko/36.png"
+  },
+  {
+    "id": "37",
+    "audio": "../audio/kojko.mp4",
+    "time": 2807,
+    "page": "../strKojko/37.png"
+  }
+]
