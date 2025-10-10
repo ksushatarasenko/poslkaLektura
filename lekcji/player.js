@@ -1,7 +1,8 @@
-let items = [];
+document.addEventListener("DOMContentLoaded", () => {
+  let items = [];
 let activeButton = null;
 
-// Загружаем JSON-файл со списком
+// 🔹 Загрузка списка страниц и аудио
 async function loadItems() {
   try {
     const res = await fetch("items.json");
@@ -12,26 +13,34 @@ async function loadItems() {
   }
 }
 
-async function playById(id) {
+// 🔹 Ждём, пока аудио будет готово к воспроизведению
+function waitForAudioCanPlay(audio, timeout = 5000) {
+  return new Promise(resolve => {
+    if (audio.readyState >= 3) return resolve(); // уже готово
+    const timer = setTimeout(() => resolve(), timeout); // резервный таймаут
+    audio.oncanplay = () => {
+      clearTimeout(timer);
+      resolve();
+    };
+  });
+}
+
+// 🔹 Основная функция воспроизведения по ID страницы
+async function playById(id, userClick = true) {
   if (items.length === 0) await loadItems();
 
   const item = items.find(i => i.id === id);
-  if (!item) {
-    console.error("Элемент с таким ID не найден:", id);
-    return;
-  }
+  if (!item) return console.error("Элемент с таким ID не найден:", id);
 
   const index = items.findIndex(i => i.id === id);
-  const nextItem = items[index + 1]; // следующая страница
+  const nextItem = items[index + 1];
 
   const audio = document.getElementById("player");
   const frame = document.getElementById("pageFrame");
   const header = document.querySelector(".pages h6");
 
-  // 🔹 Обновляем заголовок
+  // 🔹 Заголовок и подсветка кнопки
   header.textContent = `Strona ${id}`;
-
-  // 🔹 Подсветка активной кнопки
   if (activeButton) activeButton.classList.remove("active");
   const newButton = document.querySelector(`button[onclick="playById('${id}')"]`);
   if (newButton) {
@@ -39,60 +48,13 @@ async function playById(id) {
     activeButton = newButton;
   }
 
-  // 🔹 Загружаем аудио
-  audio.src = item.audio;
-  audio.onloadedmetadata = () => {
-    audio.currentTime = item.time || 0;
-    audio.play();
-  };
-
-  // 🔹 Определяем конец страницы
-  let endTime = nextItem ? nextItem.time : null;
-
-  // Убираем предыдущие слушатели
-  audio.onended = null;
-  audio.ontimeupdate = null;
-
-  // 🔹 Останавливаем или переходим дальше
-  if (endTime) {
-    const stopListener = () => {
-      if (audio.currentTime >= endTime) {
-        audio.pause();
-        audio.removeEventListener("timeupdate", stopListener);
-
-        // ⏩ Автопереход на следующую страницу
-        if (nextItem) {
-          setTimeout(() => playById(nextItem.id), 800); // 0.8 секунды пауза
-        }
-      }
-    };
-    audio.addEventListener("timeupdate", stopListener);
-  } else {
-    // Если это последняя страница — просто останавливаемся
-    audio.onended = () => {
-      header.textContent = `Strona ${id} — (koniec książki 📖)`;
-    };
-  }
-
   // 🔹 Встраиваем картинку внутрь iframe
   frame.srcdoc = `
     <html>
       <head>
         <style>
-          html, body {
-            margin: 0;
-            padding: 0;
-            width: 100%;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            background-color: #000;
-          }
-          img {
-            max-width: 100%;
-            max-height: 100%;
-            object-fit: contain;
-          }
+          html, body { margin:0; padding:0; width:100%; display:flex; justify-content:center; align-items:center; background:#000;}
+          img { max-width:100%; max-height:100%; object-fit:contain; }
         </style>
       </head>
       <body>
@@ -100,6 +62,44 @@ async function playById(id) {
       </body>
     </html>
   `;
+
+  // 🔹 Настройка аудио
+  audio.src = item.audio;
+
+  // 🔹 Сбрасываем предыдущие слушатели
+  audio.onended = null;
+  audio.ontimeupdate = null;
+
+  // 🔹 Ждём полной готовности аудио
+  await waitForAudioCanPlay(audio);
+  audio.currentTime = item.time || 0;
+  audio.play().catch(e => console.log("Ошибка воспроизведения:", e));
+
+  // 🔹 Автопереход на следующую страницу
+  if (nextItem) {
+    const stopListener = () => {
+      if (audio.currentTime >= nextItem.time) {
+        audio.pause();
+        audio.removeEventListener("timeupdate", stopListener);
+
+        // Автозапуск следующей страницы, только если не клик пользователя
+        if (!userClick) {
+          setTimeout(() => playById(nextItem.id, false), 500);
+        }
+      }
+    };
+    audio.addEventListener("timeupdate", stopListener);
+  } else {
+    // Последняя страница
+    audio.onended = () => {
+      header.textContent = `Strona ${id} — (koniec książki 📖)`;
+    };
+  }
 }
 
+// 🔹 Делаем функцию глобальной для использования из HTML
 window.playById = playById;
+
+});
+
+
