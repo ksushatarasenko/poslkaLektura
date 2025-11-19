@@ -417,3 +417,15 @@ button.active {
 button:hover {
   opacity: 0.9;
 }
+
+#audio{
+    width: 100%;
+    display: flex;
+    justify-content: center; 
+}
+#audio>iframe{
+    max-width: 100%;
+    width: 560px;   /* любую ширину можно оставить фиксированной */
+    height: 315px;
+    display: block;
+}

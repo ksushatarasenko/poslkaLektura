@@ -154,6 +154,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
   // ⛔ Запуск 3-й страницы вручную (без автоплея)
   loadItems().then(() => playById("03", false, false));
+
+  
 });
 
 
