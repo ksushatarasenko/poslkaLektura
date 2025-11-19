@@ -2,62 +2,71 @@
   {
     "id": "03",
     "audio": "https://res.cloudinary.com/dsar6tpj3/video/upload/v1760102884/kojko_toxmff.mp3",
-    "time": 1,
-    "page": "../strKojko/3.png",
-    "width": 900
+    "start": 1,
+    "end": 116,
+    "page": "../strKojko/3.png"
   },
   {
     "id": "04",
     "audio": "https://res.cloudinary.com/dsar6tpj3/video/upload/v1760102884/kojko_toxmff.mp3",
-    "time": 112,
+    "start": 114,
+    "end": 182,
     "page": "../strKojko/4.png"
   },
   {
     "id": "05",
     "audio": "https://res.cloudinary.com/dsar6tpj3/video/upload/v1760102884/kojko_toxmff.mp3",
-    "time": 186,
+    "start": 183,
+    "end": 266,
     "page": "../strKojko/5.png"
   },
   {
     "id": "06",
     "audio": "https://res.cloudinary.com/dsar6tpj3/video/upload/v1760102884/kojko_toxmff.mp3",
-    "time": 269,
+    "start": 266,
+    "end":349,
     "page": "../strKojko/6.png"
   },
   {
     "id": "07",
     "audio": "https://res.cloudinary.com/dsar6tpj3/video/upload/v1760102884/kojko_toxmff.mp3",
-    "time": 340,
+    "start": 350,
+    "end":430,
     "page": "../strKojko/7.png"
   },
   {
     "id": "08",
     "audio": "https://res.cloudinary.com/dsar6tpj3/video/upload/v1760102884/kojko_toxmff.mp3",
-    "time": 421,
+    "start": 431,
+    "end":430,
     "page": "../strKojko/8.png"
   },
   {
     "id": "09",
     "audio": "https://res.cloudinary.com/dsar6tpj3/video/upload/v1760102884/kojko_toxmff.mp3",
-    "time": 505,
+    "start": 505,
+    "end":430,
     "page": "../strKojko/9.png"
   },
   {
     "id": "10",
     "audio": "https://res.cloudinary.com/dsar6tpj3/video/upload/v1760102884/kojko_toxmff.mp3",
-    "time": 573,
+    "start": 573,
+    "end":430,
     "page": "../strKojko/10.png"
   },
   {
     "id": "11",
     "audio": "https://res.cloudinary.com/dsar6tpj3/video/upload/v1760102884/kojko_toxmff.mp3",
-    "time": 640,
+    "start": 640,
+    "end":430,
     "page": "../strKojko/11.png"
   },
   {
     "id": "12",
     "audio": "https://res.cloudinary.com/dsar6tpj3/video/upload/v1760102884/kojko_toxmff.mp3",
-    "time": 704,
+    "start": 704,
+    "end":430,
     "page": "../strKojko/12.png"
   },
   {
