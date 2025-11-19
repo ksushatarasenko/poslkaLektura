@@ -1,0 +1,30 @@
+ż
+
+
+
+<p><span class="playable" data-audio="../audio/środowisko.mp3">środowisko</span> - окружающая среда</p>
+<p><span class="playable" data-audio="../audio/środowisko.mp3">środowisko</span> - окружающая среда</p>
+<p><span class="playable" data-audio="../audio/środowisko.mp3">środowisko</span> - окружающая среда</p>
+
+  <!-- Один тег audio, который переиспользуется -->
+  <audio id="player"></audio>
+
+ <div class="hint2-container" onclick="toggleHint2(this, event)">
+    <div class="hint2-header">Rozwiązanie</div>
+      <div class="hint2-content">
+                
+      </div>
+  </div>
+
+
+  <!-- Back to top button -->
+   <!-- кнопка поднятия вверх -->
+     <button class="back-to-top" id="backToTop" aria-label="Przejdź na początek strony" title="Na górę" type="button">
+          <!-- chevron up icon -->
+          <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+               <path fill="currentColor" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path>
+          </svg>
+     </button>
+
+
+<h2 class="site"><a href="" target="_blank" >Jak mierzymy czas? <img src="../../../image/site.png" alt=""></a></h2>
