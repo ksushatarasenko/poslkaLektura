@@ -429,3 +429,49 @@ button:hover {
     height: 315px;
     display: block;
 }
+/* QUESTIONS */
+.qa-box {
+        background: #fff;
+        padding: 5px;
+        border-radius: 10px;
+        width: 90%;
+        box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        margin-bottom: 10px;
+    }
+
+    .question {
+        font-size: 18px;
+        font-weight: bold;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .info-icon {
+        cursor: pointer;
+        font-size: 22px;
+        margin-left: 10px;
+        transition: transform 0.3s;
+        user-select: none;
+    }
+
+    .info-icon:hover {
+        transform: scale(1.2);
+    }
+
+    .answer {
+        margin-top: 15px;
+        padding: 15px;
+        background: #e8f4ff;
+        border-left: 4px solid #2a79ff;
+        border-radius: 6px;
+        font-size: 16px;
+        display: none;
+        opacity: 0;
+        transition: opacity 0.3s ease;
+    }
+
+    .answer.show {
+        display: block;
+        opacity: 1;
+    }
