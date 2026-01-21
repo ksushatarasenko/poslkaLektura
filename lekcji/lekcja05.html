@@ -8,10 +8,16 @@
     <link rel="stylesheet" href="../style.css">
     <link rel="stylesheet" href="../styleTable.css">
     <link rel="stylesheet" href="../styleText.css">
-
+    <link rel="stylesheet" href="../styleButton.css">
 </head>
 
 <body>
+    <button class="back-to-top" id="backToTop" aria-label="Przejdź na początek strony" title="Na górę" type="button">
+        <!-- chevron up icon -->
+        <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+            <path fill="currentColor" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path>
+        </svg>
+    </button>
     <header>
 
         <ul class="header">
@@ -38,12 +44,20 @@
                     pajacyka, który ożywa i pragnie stać się prawdziwym chłopcem. „Pinokio” to opowieść pełna magii,
                     przygód, ale także ważnych lekcji o moralności, posłuszeństwie i konsekwencjach podejmowanych
                     decyzji.</p>
+                <p class="p22"><a href="#autorze">Krótko o autorze</a></p>
+                <p class="p22"><a href="#streszczenie">Pinokio streszczenie</a></p>
+                <p class="p22"><a href="#motywy">Problematyka i motywy literackie</a></p>
+                <p class="p22"><a href="#bohaterowie">Główni i drugoplanowi bohaterowie</a></p>
+                <p class="p22"><a href="#wydarzeń">Plan wydarzeń</a></p>
+                <p><a href="#pytania">Pytania</a></p>
+                <p><a href="#gatunek">GATUNEK</a></p>
             </div>
+
         </section>
         <!-- Carlo Collodi -->
         <section>
             <div class="zagolRed">
-                <p>Carlo Collodi</p>
+                <p id="autorze">Carlo Collodi</p>
             </div>
             <p class="p35">Krótko o autorze</p>
             <div class="text">
@@ -58,7 +72,7 @@
         <!-- Pinokio streszczenie -->
         <section>
             <div class="zagolRed">
-                <p>Pinokio streszczenie</p>
+                <p id="streszczenie">Pinokio streszczenie</p>
             </div>
             <div class="text">
                 <p>
@@ -96,67 +110,10 @@
                 </p>
             </div>
         </section>
-        <!-- plan wydarzeń -->
-        <section>
-            <div class="zagolRed">
-                <p>Plan wydarzeń</p>
-            </div>
-            <div class="text">
-                <ol>
-                    <li><a href="#1">Majster Wiśnia znajduje kawałek drewna, który śmieje się i płacze jak dziecko.</a></li>
-                    <li><a href="#2">Mężczyzna ofiarowuje drewno swemu przyjacielowi Dżeppettowi.</a></li>
-                    <li><a href="#3">Dżeppetto rzeźbi pajaca i nadaje mu imię Pinokio.</a></li>
-                    <li><a href="#4">Historia Pinokio i gadającego Świerszcza</a></li>
-                    <li><a href="#5">Pinokio jest głodny i szuka jajka</a></li>
-                    <li><a href="#6">Pinokio zasypa z nogami w piecyku</a></li>
-                    <li><a href="#7">Dżeppetto wraca do domu i oddaje pajacykowi własne śniadanie</a></li>
-                    <li><a href="#8">Dżeppetto robie nowe stopy dla Pinokia i sprzedaje surdut, żeby kupi mu elementarz</a></li>
-                    <li><a href="#9">Pinokio sprzedaje elementarz, żeby kupić bilet na przedstawienie</a></li>
-                    <li><a href="#10">Marionetki rozpoznają swojego brata i witają go.</a></li>
-                    <li><a href=""></a></li>
-                    <li>Pinokio, czekając na przybycie Dżeppetta do domu Wróżki, wychodzi do lasku na jego spotkanie,
-                        ale spotyka Kota i Lisa.</li>
-                    <li>Pajac, Kot i Lis wędrują na Pole Cudów</li>
-                    <li>Pinokio traci pieniądze i dostaje się do więzienia.</li>
-                    <li>Po wyjściu z więzienia Pinokio, uciekając przed strasznym wężem, wpada w pułapkę na łasice.</li>
-                    <li>Pinokio w charakterze psa podwórzowego pilnuje domu wieśniaka.</li>
-                    <li>W nagrodę za schwytanie łasic gospodarz zwraca pajacykowi wolność.</li>
-                    <li>Pinokio udaje się do domu Wróżki, ale okazuje się, że ta umarła.</li>
-                    <li>Gołąb zabiera pajaca na brzeg oceanu, gdzie Dżeppetto niedawno wsiadł do łódki, by ruszyć na
-                        poszukiwania synka.</li>
-                    <li>Pinokio skacze w fale, ale nie może dogonić łódki ojca.</li>
-                    <li>Pajac dopływa do wyspy, gdzie odnajduje Wróżkę i pod jej wpływem postanawia pójść do szkoły oraz
-                        być dobrym chłopcem.</li>
-                    <li>Koledzy namawiają Pinokia do pójścia na wagary.</li>
-                    <li>W czasie wagarów wybucha bójka – Pinokio zostaje niesłusznie oskarżony o ciężkie zranienie
-                        kolegi i aresztowany.</li>
-                    <li>Uciekając karabinierom (policjantom), Pinokio skacze do morza, skąd wyławia go rybak i chce
-                        usmażyć na oliwie jak rybę.</li>
-                    <li>Pies Alidoro ratuje Pinokia, porywając go z ręki rybaka (Alidoro to pies policyjny, który gonił
-                        Pinokia i wpadł do morza; niestety, nie umiał pływać i byłby się utopił, gdyby Pinokio go nie
-                        wyciągnął na brzeg).</li>
-                    <li>Pinokio wraca do domu Wróżki i staje się porządnym pajacem, w nagrodę za co ma stać się
-                        chłopcem.</li>
-                    <li>Pinokio w nocy ucieka z Knotem do Krainy Zabawek.</li>
-                    <li>Po pięciu miesiącach beztroskiego życia Pinokio i Knot zamieniają się w osły.</li>
-                    <li>Pinokio zostaje sprzedany do cyrku, gdzie uczy się różnych sztuczek (tańców i skoków przez
-                        obręcz).</li>
-                    <li>Ponieważ Pinokio‑osioł okulał, dyrektor cyrku sprzedaje go na skórę do bębna.</li>
-                    <li>Kupiec topi Pinokia w oceanie, by z martwego osła zdjąć skórę.</li>
-                    <li>Ryby zjadają oślą skórę i w ten sposób Pinokio odzyskuje swoją postać.</li>
-                    <li>Pajac ucieka kupcowi, skacząc w fale, i zostaje połknięty przez rekina, w brzuchu którego
-                        spotyka Dżeppetta.</li>
-                    <li>Dżeppetto i Pinokio uciekają przez otwartą paszczę rekina astmatyka.</li>
-                    <li> Pinokio ciężko pracuje, aby utrzymać ojca, a pieniądze odłożone dla siebie oddaje Ślimakowi na
-                        wieść o chorobie Niebieskiej Wróżki.</li>
-                    <li>Pinokio staje się chłopcem.</li>
-                </ol>
-            </div>
-        </section>
         <!-- Pinokio - Problematyka i motywy literackie -->
         <section>
             <div class="zagolRed">
-                <p>Pinokio - Problematyka i motywy literackie</p>
+                <p id="motywy">Pinokio - Problematyka i motywy literackie</p>
             </div>
             <div class="text">
                 <p class="p35">problematyka</p>
@@ -227,11 +184,11 @@
         <!-- Główni  i drugoplanowi bohaterowie-->
         <sction>
             <div class="zagolRed">
-                <p>Główni &nbsp; i &nbsp; drugoplanowi &nbsp; bohaterowie</p>
+                <p id="bohaterowie">Główni &nbsp; i &nbsp; drugoplanowi &nbsp; bohaterowie</p>
             </div>
             <p class="p35">Główni bohaterowie </p>
             <!-- Pinokio -->
-            <div>                
+            <div>
                 <div class="text">
                     <p class="p35">🪵 Pinokio</p>
                     <p><em>Kim jest?</em></p>
@@ -248,7 +205,11 @@
                     </ul>
                     <br>
                     <p><em>Wygląd:</em></p>
-                    <p>Pinokio jest drewniany, ma ruchome kończyny i charakterystyczny, wydłużający się nos. Ma okrągłą główkę i długi nos. Bujna czupryna ukrywa brak uszu. Brzuch ma kształt walca, a nogi i ręce są długie i szczupłe. Jego oczy podobne były do paciorków i spoglądały łobuzersko spod opodającej na czoło grzywki. Strój Pinokia składał się z ubranka wykonanego z papieru w kwiatki, bucików z kory i czapeczki z ciasta.</p>
+                    <p>Pinokio jest drewniany, ma ruchome kończyny i charakterystyczny, wydłużający się nos. Ma okrągłą
+                        główkę i długi nos. Bujna czupryna ukrywa brak uszu. Brzuch ma kształt walca, a nogi i ręce są
+                        długie i szczupłe. Jego oczy podobne były do paciorków i spoglądały łobuzersko spod opodającej
+                        na czoło grzywki. Strój Pinokia składał się z ubranka wykonanego z papieru w kwiatki, bucików z
+                        kory i czapeczki z ciasta.</p>
                     <br>
                     <p><em>Zasługi:</em></p>
                     <ul>
@@ -261,26 +222,36 @@
                 </div>
             </div>
             <!-- Gepetto -->
-            <div>                
+            <div>
                 <div class="text">
                     <p class="p35">👴 Gepetto</p>
                     <p><em>Kim jest?</em></p>
-                    <p>Stary <b>szewc</b>, który wystrugał Pinokia z kawałka pnia. Był przyjacielem stolarza, majstra Wisienki i nosił perukę koloru mąki kukurydzianej. Z tego powodu <b>dzieci nazywały go Mamałygą</b>, co go strasznie złościło. <a href="https://poezja.org/wz/interpretacja/6680/Dzepetto_Gepetto_charakterystyka" target="_blank" style="color: blue;">Dżepetto</a> bywał porywczy, ale w głębi duszy był dobrym człowiekiem i dbał o Pinokia. Sprzedał swój jedyny kaftan, by kupić pajacykowi elementarz do szkoły, wybaczał mu wszystkie wybryki i wyruszył w świat, by odnaleźć Pinokia, gdy ten zaginął. Był zatem dobrym i kochającym ojcem.</p>
+                    <p>Stary <b>szewc</b>, który wystrugał Pinokia z kawałka pnia. Był przyjacielem stolarza, majstra
+                        Wisienki i nosił perukę koloru mąki kukurydzianej. Z tego powodu <b>dzieci nazywały go
+                            Mamałygą</b>, co go strasznie złościło. <a
+                            href="https://poezja.org/wz/interpretacja/6680/Dzepetto_Gepetto_charakterystyka"
+                            target="_blank" style="color: blue;">Dżepetto</a> bywał porywczy, ale w głębi duszy był
+                        dobrym człowiekiem i dbał o Pinokia. Sprzedał swój jedyny kaftan, by kupić pajacykowi elementarz
+                        do szkoły, wybaczał mu wszystkie wybryki i wyruszył w świat, by odnaleźć Pinokia, gdy ten
+                        zaginął. Był zatem dobrym i kochającym ojcem.</p>
                 </div>
             </div>
             <!-- 🧚‍♀️ Wróżka z Niebieskimi Włosami -->
-            <div>                
+            <div>
                 <div class="text">
                     <p class="p35">🧚‍♀️ Wróżka z Niebieskimi Włosami</p>
                     <p><em>Kim jest?</em></p>
-                    <p>Wróżka to magiczna i tajemnicza postać, która pomaga Pinokiowi na jego drodze. Jest dobrotliwa, ale wymaga od chłopca poprawy i nauki odpowiedzialności. To ona daje mu szansę na zostanie prawdziwym chłopcem.</p>
+                    <p>Wróżka to magiczna i tajemnicza postać, która pomaga Pinokiowi na jego drodze. Jest dobrotliwa,
+                        ale wymaga od chłopca poprawy i nauki odpowiedzialności. To ona daje mu szansę na zostanie
+                        prawdziwym chłopcem.</p>
                     <p><em>Cechy charakteru:</em></p>
                     <ul>
                         <li>Dobrotliwa, mądra, sprawiedliwa i wymagająca</li>
                         <li>Cierpliwa, ale stanowcza, pokazuje Pinokiowi, co jest ważne w życiu</li>
                     </ul>
                     <p><em>Wygląd:</em></p>
-                    <p>Piękna kobieta z długimi niebieskimi włosami, ubrana w błękitną suknię, często przedstawiana z magiczną różdżką.</p>
+                    <p>Piękna kobieta z długimi niebieskimi włosami, ubrana w błękitną suknię, często przedstawiana z
+                        magiczną różdżką.</p>
                     <p><em>Zasługi:</em></p>
                     <ul>
                         <li>Pomaga Pinokiowi zrozumieć, co jest ważne w życiu.</li>
@@ -290,19 +261,21 @@
                     <p>„Wróżka wierzyła, że każdy zasługuje na drugą szansę.”</p>
                 </div>
             </div>
-             <!-- 🦊 Lis i Kot -->
-            <div>                
+            <!-- 🦊 Lis i Kot -->
+            <div>
                 <div class="text">
                     <p class="p35">🦊 Lis i Kot</p>
                     <p><em>Kim jest?</em></p>
-                    <p>Lis i Kot to przebiegli oszuści, którzy chcą wykorzystać naiwność Pinokia. Są podstępni i nieuczciwi, próbują zwabić go w pułapki i oszukać, by zdobyć korzyści dla siebie.</p>
+                    <p>Lis i Kot to przebiegli oszuści, którzy chcą wykorzystać naiwność Pinokia. Są podstępni i
+                        nieuczciwi, próbują zwabić go w pułapki i oszukać, by zdobyć korzyści dla siebie.</p>
                     <p><em>Cechy charakteru:</em></p>
                     <ul>
                         <li>Podstępni, przebiegli, chciwi i nieuczciwi</li>
                         <li>Wykorzystują innych dla własnych korzyści</li>
                     </ul>
                     <p><em>Wygląd:</em></p>
-                    <p>Lis jest chytry i sprytny, często przedstawiany z przebiegłym uśmiechem. Kot jest leniwy i złośliwy, z charakterystycznym, tajemniczym spojrzeniem.</p>
+                    <p>Lis jest chytry i sprytny, często przedstawiany z przebiegłym uśmiechem. Kot jest leniwy i
+                        złośliwy, z charakterystycznym, tajemniczym spojrzeniem.</p>
                     <p><em>Zasługi:</em></p>
                     <ul>
                         <li>Uczą, że trzeba być ostrożnym i nie ufać każdemu, kto wydaje się przyjazny.</li>
@@ -314,205 +287,667 @@
             <p class="p35">Drugoplanowi bohaterowie</p>
             <div class="text">
                 <ul>
-                    <li><b>Majster Antonio</b> – był starym stolarzem. Wszyscy nazywali go Majstrem Wiśnią, ponieważ jego nos był na końcu zaokrąglony, lśniący i czerwony niczym wiśnia. Na głowie nosił perukę. Majster był raczej racjonalistą, dlatego nie mógł początkowo uwierzyć, by znaleziony kawałek drzewa mówił. Był przerażony, dlatego przekazał go przyjacielowi – Dżeppetto.</li>
-                    <li><b>Gadający Świerszcz</b> – mieszkał w pokoju Dżeppetta od ponad stu lat. Był starym mądrym filozofem i pouczał Pinokia, że niegrzeczne dzieci źle kończą, a nieuki zostają osłami. Gdy wyznał, że Pinokio ma pustą głowę został uderzony młotkiem i padł martwy. Jego duch ukazuje się Pinokiowi przestrzegając przed kolejnymi błędami.</li>
-                    <li><b>Arlekin i Pulcinella</b> – marionetki występujące w Wielkim Teatrze Marionetek. Jako pierwsze dostrzegły Pinokia i zaczęły wiwatować na jego cześć. Ze strachu przed Ogniojadem przyniosły do niego Pinokia. Arlekin, którego Pinokio uważał za swego najlepszego przyjaciela, zostaje wyznaczony przez Ogniojada do spalenia. Wówczas syn Dżeppetta postanawia oddać za niego życie. Wzruszony jego postawą dyrektor daruje życie kukiełce.
+                    <li><b>Majster Antonio</b> – był starym stolarzem. Wszyscy nazywali go Majstrem Wiśnią, ponieważ
+                        jego nos był na końcu zaokrąglony, lśniący i czerwony niczym wiśnia. Na głowie nosił perukę.
+                        Majster był raczej racjonalistą, dlatego nie mógł początkowo uwierzyć, by znaleziony kawałek
+                        drzewa mówił. Był przerażony, dlatego przekazał go przyjacielowi – Dżeppetto.</li>
+                    <li><b>Gadający Świerszcz</b> – mieszkał w pokoju Dżeppetta od ponad stu lat. Był starym mądrym
+                        filozofem i pouczał Pinokia, że niegrzeczne dzieci źle kończą, a nieuki zostają osłami. Gdy
+                        wyznał, że Pinokio ma pustą głowę został uderzony młotkiem i padł martwy. Jego duch ukazuje się
+                        Pinokiowi przestrzegając przed kolejnymi błędami.</li>
+                    <li><b>Arlekin i Pulcinella</b> – marionetki występujące w Wielkim Teatrze Marionetek. Jako pierwsze
+                        dostrzegły Pinokia i zaczęły wiwatować na jego cześć. Ze strachu przed Ogniojadem przyniosły do
+                        niego Pinokia. Arlekin, którego Pinokio uważał za swego najlepszego przyjaciela, zostaje
+                        wyznaczony przez Ogniojada do spalenia. Wówczas syn Dżeppetta postanawia oddać za niego życie.
+                        Wzruszony jego postawą dyrektor daruje życie kukiełce.
                     </li>
-                    <Li><b>Dyrektor Ogniojad</b> – brzydki dyrektor Wielkiego Teatru Marionetek. Jego wygląd wzbudzał przerażenie. Miał czarną jak smoła, sięgającą do stóp brodę. Miał usta szerokie jak piekarnik, żółte zęby i oczy przypominające rozżarzone węgle. W wielkich łapach trzymał bicz spleciony z kocich ogonów i zielonych węży. Mimo groźnego wyglądu nie był bardzo zły. Zlitował się nad miotającym się Pinokiem, o czym świadczyło jego głośne kichnięcie. Gdy Ogniojad był wzruszony – kichał. Był szczodry, gdy usłyszał o nędzy Dżeppetta ofiarował mu pięć złotych monet.</Li>
-                    <Li><b>Alidoro</b>  - pies rasy mastyf, który najpierw został wysłany przez karabinierów w pogoń za Pinokiem. Gdy Pinokio wskoczył do morza pies nieopatrznie także wpadł do wody. Nie umiał pływać, ale Pinokio przemógł się i uratował go wyciągając za ogon z wody. Alidoro odwdzięczył się mu i uratował przed usmażeniem przez rybaka z jaskini. Został przyjacielem Pinokia.</Li>
-                    <Li><b>Knot </b>- tak naprawdę nazywał się Romeo, Pinokio darzył go szczerym uczuciem. Był długi, chudy i miał zafrasowany wyraz twarzy. Był największym leniem i urwisem w szkole. Nauczyciel przestrzegał przed jego towarzystwem. Knot namówił Pinokia do wyjazdu do Krainy Zabawek. Podobnie jak on z czasem zamienił się w osła i został sprzedany wieśniakowi, któremu zmarło jego zwierzę.</Li>
-                    <Li><b>Woźnica</b> – niski, gruby człowieczek, okrągły i lśniący jak kulka masła, z twarzą jak jabłko, z małymi, ciągle uśmiechniętymi ustami i głosem cienkim i przymilnym jak u kota proszącego o jedzenie. Powoził zaprzężonym w dwanaście par osłów wozem, podróżował po świecie szukając leniwych chłopców, którzy nienawidzili książek, których męczyła szkoła i byli skłonni uciec z domu. Zabierał ich do Krainy Zabawek, a gdy zamieniali się w osiołki, sprzedawał je. Dzięki temu stał się milionerem.</Li>
+                    <Li><b>Dyrektor Ogniojad</b> – brzydki dyrektor Wielkiego Teatru Marionetek. Jego wygląd wzbudzał
+                        przerażenie. Miał czarną jak smoła, sięgającą do stóp brodę. Miał usta szerokie jak piekarnik,
+                        żółte zęby i oczy przypominające rozżarzone węgle. W wielkich łapach trzymał bicz spleciony z
+                        kocich ogonów i zielonych węży. Mimo groźnego wyglądu nie był bardzo zły. Zlitował się nad
+                        miotającym się Pinokiem, o czym świadczyło jego głośne kichnięcie. Gdy Ogniojad był wzruszony –
+                        kichał. Był szczodry, gdy usłyszał o nędzy Dżeppetta ofiarował mu pięć złotych monet.</Li>
+                    <Li><b>Alidoro</b> - pies rasy mastyf, który najpierw został wysłany przez karabinierów w pogoń za
+                        Pinokiem. Gdy Pinokio wskoczył do morza pies nieopatrznie także wpadł do wody. Nie umiał pływać,
+                        ale Pinokio przemógł się i uratował go wyciągając za ogon z wody. Alidoro odwdzięczył się mu i
+                        uratował przed usmażeniem przez rybaka z jaskini. Został przyjacielem Pinokia.</Li>
+                    <Li><b>Knot </b>- tak naprawdę nazywał się Romeo, Pinokio darzył go szczerym uczuciem. Był długi,
+                        chudy i miał zafrasowany wyraz twarzy. Był największym leniem i urwisem w szkole. Nauczyciel
+                        przestrzegał przed jego towarzystwem. Knot namówił Pinokia do wyjazdu do Krainy Zabawek.
+                        Podobnie jak on z czasem zamienił się w osła i został sprzedany wieśniakowi, któremu zmarło jego
+                        zwierzę.</Li>
+                    <Li><b>Woźnica</b> – niski, gruby człowieczek, okrągły i lśniący jak kulka masła, z twarzą jak
+                        jabłko, z małymi, ciągle uśmiechniętymi ustami i głosem cienkim i przymilnym jak u kota
+                        proszącego o jedzenie. Powoził zaprzężonym w dwanaście par osłów wozem, podróżował po świecie
+                        szukając leniwych chłopców, którzy nienawidzili książek, których męczyła szkoła i byli skłonni
+                        uciec z domu. Zabierał ich do Krainy Zabawek, a gdy zamieniali się w osiołki, sprzedawał je.
+                        Dzięki temu stał się milionerem.</Li>
                     <Li><b>Wielki Sokół, pudel Medor</b> - słudzy Wróżki.</Li>
                     <li><b>Kruk i Sowa</b> – lekarze wezwani przez Wróżkę, by zbadać stan zdrowia Pinokia.</li>
-                    <li><b>Papuga</b> – poinformowała Pinokia, że został okradziony. Śmiała się z jego naiwności. Sama niegdyś także wierzyła, że można zasiać złoto, jak groch czy dynię.</li>
-                    <li><b>Goryl</b> – sędzia w Mieście Głupców, był dostojnym starcem o białej brodzie spływającej mu na pierś. Nosił okulary w złotych oprawkach, z których wypadały szkła. Wzrok popsuł sobie przez wieloletnią pracę. Skazał Pinokia na cztery lata więzienia.</li>
+                    <li><b>Papuga</b> – poinformowała Pinokia, że został okradziony. Śmiała się z jego naiwności. Sama
+                        niegdyś także wierzyła, że można zasiać złoto, jak groch czy dynię.</li>
+                    <li><b>Goryl</b> – sędzia w Mieście Głupców, był dostojnym starcem o białej brodzie spływającej mu
+                        na pierś. Nosił okulary w złotych oprawkach, z których wypadały szkła. Wzrok popsuł sobie przez
+                        wieloletnią pracę. Skazał Pinokia na cztery lata więzienia.</li>
                 </ul>
             </div>
         </sction>
+        <!-- plan wydarzeń -->
+        <section>
+            <div class="zagolRed">
+                <p id="wydarzeń">Plan wydarzeń</p>
+            </div>
+            <div class="text">
+                <ol>
+                    <li><a href="#1">Majster Wisienka znajduje kawałek drewna, który mówi i śmieje się jak dziecko.</a>
+                    </li>
+                    <li><a href="#2">Majster Wisienka oddaje niezwykłe drewno swojemu przyjacielowi Dżeppettowi.</a>
+                    </li>
+                    <li><a href="#3">Dżeppetto struga pajaca i nadaje mu imię Pinokio. Pajacyk ożywa i ucieka z
+                            domu.</a></li>
+                    <li><a href="#4">Pinokio spotyka Gadającego Świerszcza, ale nie słucha jego rad i zabija go.</a>
+                    </li>
+                    <li><a href="#5">Głodny Pinokio próbuje przygotować jajko, lecz wykluwa się z niego pisklę.</a></li>
+                    <li><a href="#6">Pinokio zasypia przy ogniu i spala sobie drewniane nogi.</a></li>
+                    <li><a href="#7">Dżeppetto wraca do domu, opiekuje się Pinokiem i karmi go gruszkami.</a></li>
+                    <li><a href="#8">Dżeppetto robi Pinokiowi nowe nogi i sprzedaje płaszcz, by kupić mu elementarz.</a>
+                    </li>
+                    <li><a href="#9">Pinokio idzie do szkoły, ale sprzedaje książkę i idzie do teatru marionetek.</a>
+                    </li>
+                    <li><a href="#10">W teatrze marionetki rozpoznają Pinokia, a przedstawienie zostaje przerwane.</a>
+                    </li>
+                    <li><a href="#11">Ogniojad chce spalić Pinokia, lecz wzruszony daruje mu życie.</a></li>
+                    <li><a href="#12">Pinokio dostaje pięć złotych monet i spotyka Lisa oraz Kota.</a></li>
+                    <li><a href="#13">Pinokio nocuje w gospodzie „Pod Czerwonym Rakiem” i zostaje oszukany.</a></li>
+                    <li><a href="#14">Pinokio zostaje napadnięty przez zbójców przebranych za Lisa i Kota.</a></li>
+                    <li><a href="#15">Pinokio trafia do domu Wróżki o Niebieskich Włosach i kłamie – rośnie mu nos.</a>
+                    </li>
+                    <li><a href="#16">Doktorzy badają Pinokia, a Wróżka znika, zostawiając go samego.</a></li>
+                    <li><a href="#17">Pinokio znów wierzy Lisowi i Kotu i zakopuje monety na Polu Cudów.</a></li>
+                    <li><a href="#18">Papuga zdradza Pinokiowi prawdę o oszustwie Lisa i Kota.</a></li>
+                    <li><a href="#19">Sędzia Goryl wtrąca Pinokia do więzienia, skąd wychodzi dzięki kłamstwu.</a></li>
+                    <li><a href="#20">Pinokio spotyka węża, wpada w błoto i trafia w pułapkę na kuny.</a></li>
+                    <li><a href="#21">Pinokio zostaje przywiązany przy budzie jako stróż zamiast psa.</a></li>
+                    <li><a href="#22">Pinokio nie zgadza się na kradzież i pomaga schwytać kuny.</a></li>
+                    <li><a href="#23">Pinokio dowiaduje się o rzekomej śmierci Wróżki i wyrusza szukać ojca.</a></li>
+                    <li><a href="#24">Pinokio dopływa na Wyspę Pracowitych Pszczół.</a></li>
+                    <li><a href="#25">Wróżka staje się dla Pinokia matką, a on obiecuje poprawę.</a></li>
+                    <li><a href="#26">Pinokio pilnie się uczy, ale ulega złemu towarzystwu.</a></li>
+                    <li><a href="#27">Dochodzi do bójki, Pinokio zostaje niesłusznie oskarżony i ucieka.</a></li>
+                    <li><a href="#28">Pinokio ratuje buldoga i sam zostaje uratowany przez niego.</a></li>
+                    <li><a href="#29">Pinokio znów kłamie, nos mu rośnie, ale Wróżka daje mu ostatnią szansę.</a></li>
+                    <li><a href="#30">Pinokio spotyka Knota, który namawia go na wyjazd do Krainy Zabawek.</a></li>
+                    <li><a href="#31">Pinokio jedzie do Krainy Zabawek.</a></li>
+                    <li><a href="#32">Pinokio zamienia się w osła.</a></li>
+                    <li><a href="#33">Pinokio pracuje w cyrku i zostaje sprzedany.</a></li>
+                    <li><a href="#34">Pinokio wraca do postaci pajaca i zostaje połknięty przez rekina.</a></li>
+                    <li><a href="#35">W brzuchu rekina Pinokio odnajduje Dżeppetta i ucieka z nim.</a></li>
+                    <li><a href="#36">Pinokio ciężko pracuje, pomaga ojcu i zostaje nagrodzony – staje się prawdziwym
+                            chłopcem.</a></li>
+                </ol>
+            </div>
+        </section>
         <!-- Treść -->
         <div>
             <div class="zagolRed">
                 <p>Treść</p>
             </div>
             <div class="text">
-                <p class="p35" id="1">1</p>
-                <p>Do starego stolarza - majstra Antonia - przypadkowo trafił kawałek najzwyklejszego drewna. Antonio (zwany także Wisienką z powodu świecącego i fioletowego nosa) chciał zrobić z niego nogę do stolika. Kiedy już miał uderzyć w pniaczek, usłyszał płaczliwy głosik „nie bij mnie zbyt silnie”. Zdziwił się, pomyślał jednak, że mu się przywidziało, i znowu się zamierzył. Ale i tym razem usłyszał głosik. Majster podejrzewał, że ktoś ukrył się w środku, zaczął więc wytrząsać tego kogoś. Wszystko bez rezultatu. Zabrał się do heblowania, ale po chwili aż upadł z wrażenia, bo usłyszał: „Przestań! Łaskoczesz mnie po całym ciele”.</p>
+                <p class="p35" id="1">1 - Majster Wisienka znajduje kawałek drewna, który mówi i śmieje się jak dziecko.
+                </p>
+                <div class="zwuk">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/MmqGjTWXdVE?si=0XEhe6DrHfDolp3R"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+                <p>Do starego stolarza - majstra Antonia - przypadkowo trafił kawałek najzwyklejszego drewna. Antonio
+                    (zwany także Wisienką z powodu świecącego i fioletowego nosa) chciał zrobić z niego nogę do stolika.
+                    Kiedy już miał uderzyć w pniaczek, usłyszał płaczliwy głosik „nie bij mnie zbyt silnie”. Zdziwił
+                    się, pomyślał jednak, że mu się przywidziało, i znowu się zamierzył. Ale i tym razem usłyszał
+                    głosik. Majster podejrzewał, że ktoś ukrył się w środku, zaczął więc wytrząsać tego kogoś. Wszystko
+                    bez rezultatu. Zabrał się do heblowania, ale po chwili aż upadł z wrażenia, bo usłyszał: „Przestań!
+                    Łaskoczesz mnie po całym ciele”.</p>
                 <!-- 2 -->
-                <p class="p35" id="2">2</p>
-                <p>Wtedy właśnie zapukano do drzwi i wszedł staruszek Dżeppetto. Nosił jaskrawożółtą perukę i dlatego nazywano go Mamałygą.</p>
-                <p>Dżeppetto chciał sobie wystrugać pajaca i przyszedł do stolarza po drewno. Na widok gościa pniaczek zawołał „Mamałyga!” (a trzeba wiedzieć, że staruszek nie cierpiał tego przezwiska). Dżeppetto pomyślał, że to stolarz robi mu złośliwości. Rzucił się więc na niego i przez chwilę trwała bójka. Potem obaj staruszkowie pogodzili się, a Antonio wręczył przyjacielowi złośliwy kawałek drewna.</p>
-                <p>Ale i tym razem nie obeszło się bez przykrości. Pniaczek zaczął okładać Dżeppetta po nogach i znowu Antonio został oskarżony. Po kolejnej bójce staruszkowie znów rozstali się w jak największej przyjaźni.</p>
+                <p class="p35" id="2">2 - Majster Wisienka oddaje niezwykłe drewno swojemu przyjacielowi Dżeppettowi.
+                </p>
+                <div class="zwuk">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/e6FuAUGpPeY?si=LXgTF3TN3aUvRBT8"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+                <p>Wtedy właśnie zapukano do drzwi i wszedł staruszek Dżeppetto. Nosił jaskrawożółtą perukę i dlatego
+                    nazywano go Mamałygą.</p>
+                <p>Dżeppetto chciał sobie wystrugać pajaca i przyszedł do stolarza po drewno. Na widok gościa pniaczek
+                    zawołał „Mamałyga!” (a trzeba wiedzieć, że staruszek nie cierpiał tego przezwiska). Dżeppetto
+                    pomyślał, że to stolarz robi mu złośliwości. Rzucił się więc na niego i przez chwilę trwała bójka.
+                    Potem obaj staruszkowie pogodzili się, a Antonio wręczył przyjacielowi złośliwy kawałek drewna.</p>
+                <p>Ale i tym razem nie obeszło się bez przykrości. Pniaczek zaczął okładać Dżeppetta po nogach i znowu
+                    Antonio został oskarżony. Po kolejnej bójce staruszkowie znów rozstali się w jak największej
+                    przyjaźni.</p>
                 <!-- 3 -->
-                <p class="p35" id="3">3</p>
-                <p>Джеппетто, вернувшись в свою скромную комнатушку, быстро приступил к вырезанию куклы. По мере создания новых частей кукла становилась все более невыносима: высовывал язык, дразнил, пинал. Тем не менее Джеппетто остался очень доволен своей работой и назвал куклу Пиноккио.</p>
-                <p>Когда работа была окончена и марионетка смогла самостоятельно передвигаться, Джеппетто испытал свое первое большое горе: Пиноккио сбежал из дома. Правда, карабинеры остановили его на улице и хотели вернуть отцу, но зрители, наблюдавшие за всей этой сценой, сказали, что старик был жесток с мальчиком. Поэтому карабинеры оставили Пиноккио в покое и посадили Джеппетто в тюрьму.</p>
+                <p class="p35" id="3">3 - Dżeppetto struga pajaca i nadaje mu imię Pinokio. Pajacyk ożywa i ucieka z
+                    domu.</p>
+                <div class="zwuk">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/6sRPKPlV5kM?si=fpyshWx3CiD1ys9I"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+                <p>Джеппетто, вернувшись в свою скромную комнатушку, быстро приступил к вырезанию куклы. По мере
+                    создания новых частей кукла становилась все более невыносима: высовывал язык, дразнил, пинал. Тем не
+                    менее Джеппетто остался очень доволен своей работой и назвал куклу Пиноккио.</p>
+                <p>Когда работа была окончена и марионетка смогла самостоятельно передвигаться, Джеппетто испытал свое
+                    первое большое горе: Пиноккио сбежал из дома. Правда, карабинеры остановили его на улице и хотели
+                    вернуть отцу, но зрители, наблюдавшие за всей этой сценой, сказали, что старик был жесток с
+                    мальчиком. Поэтому карабинеры оставили Пиноккио в покое и посадили Джеппетто в тюрьму.</p>
                 <!-- 4 -->
-                <p class="p35" id="4"><b>4</b></p>
-                <p>Когда невинного Джеппетто увезли, счастливый Пиноккио быстро вернулся домой. Он думал, что он один в комнате, но он ошибался. Еще был столетний Говорящий Сверчок. Пиноккио хотел сразу же его вышвырнуть, но Сверчок сказал, что уйдет сам, как только скажет то, что должен сказать. От него Пиноккио услышал, что непослушные мальчики, покинувшие родительский дом, всегда плохо кончают. Сверчок посоветовал Пиноккио пойти в школу или научиться ремеслу. Пиноккио это не понравилось. Ему хотелось бродить, есть, пить и веселиться, но учеба или работа его не устраивали. Наконец, все эти лекции настолько разозлили его, что он убил Świerszcza.</p>
+                <p class="p35" id="4"><b>4 - Pinokio spotyka Gadającego Świerszcza, ale nie słucha jego rad i zabija
+                        go.</b></p>
+                <div class="zwuk">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/mHIiQUYASMU?si=63QLpteX9wO1OsHK"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+                <p>Когда невинного Джеппетто увезли, счастливый Пиноккио быстро вернулся домой. Он думал, что он один в
+                    комнате, но он ошибался. Еще был столетний Говорящий Сверчок. Пиноккио хотел сразу же его
+                    вышвырнуть, но Сверчок сказал, что уйдет сам, как только скажет то, что должен сказать. От него
+                    Пиноккио услышал, что непослушные мальчики, покинувшие родительский дом, всегда плохо кончают.
+                    Сверчок посоветовал Пиноккио пойти в школу или научиться ремеслу. Пиноккио это не понравилось. Ему
+                    хотелось бродить, есть, пить и веселиться, но учеба или работа его не устраивали. Наконец, все эти
+                    лекции настолько разозлили его, что он убил Świerszcza.</p>
                 <!-- 5 -->
-                <p class="p35" id="5"><b>5</b></p>
-                <p>В какой-то момент Пиноккио начал сожалеть о том, что сбежал и стал причиной несчастья своего отца. И все эти жалобы исходили от того, что Пиноккио был голоден. Наконец, после тщательного обыска комнаты, он нашел яйцо. Он хотел их поджарить, но когда он их сломал, птенец выскочил, поблагодарил его за то, что его выпустили, и тут же убежала через окно. А Пиноккио становился все более голодным. Не зная, что делать, он вышел из дома в поисках полезных людей.</p>
+                <p class="p35" id="5"><b>5 - Głodny Pinokio próbuje przygotować jajko, lecz wykluwa się z niego pisklę.
+                    </b></p>
+                <div class="zwuk">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/LiPFw3G88YA?si=_jXsCQ8YNspPy_f-"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+                <p>В какой-то момент Пиноккио начал сожалеть о том, что сбежал и стал причиной несчастья своего отца. И
+                    все эти жалобы исходили от того, что Пиноккио был голоден. Наконец, после тщательного обыска
+                    комнаты, он нашел яйцо. Он хотел их поджарить, но когда он их сломал, птенец выскочил, поблагодарил
+                    его за то, что его выпустили, и тут же убежала через окно. А Пиноккио становился все более голодным.
+                    Не зная, что делать, он вышел из дома в поисках полезных людей.</p>
                 <!-- 6 -->
-                <p class="p35" id="6"><b>6</b></p>
-                <p>Морозной ночью, во время сильной бури, Пиноккио удалось добраться до деревни ночью. Но, конечно же, все магазины в это время были закрыты. Поэтому он позвонил в случайный дверной звонок и попросил хлеба.</p>
-                <p>Старик, живший там, подумал, что эти негодяи разыгрывают его, и вместо того, чтобы накормить Пиноккио, вылил воду из окна.</p>
-                <p>После этой прогулки Пиноккио вернулся домой промокший насквозь и ещё более голодный. Желая вытереться, он небрежно поставил ноги на раскалённую печь и заснул. На следующее утро он проснулся без ног.</p>
+                <p class="p35" id="6"><b>6 - Pinokio zasypia przy ogniu i spala sobie drewniane nogi.</b></p>
+                <div class="zwuk">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/QS4O5tI3F3o?si=nIyZx800ISOyo143"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+                <p>Морозной ночью, во время сильной бури, Пиноккио удалось добраться до деревни ночью. Но, конечно же,
+                    все магазины в это время были закрыты. Поэтому он позвонил в случайный дверной звонок и попросил
+                    хлеба.</p>
+                <p>Старик, живший там, подумал, что эти негодяи разыгрывают его, и вместо того, чтобы накормить
+                    Пиноккио, вылил воду из окна.</p>
+                <p>После этой прогулки Пиноккио вернулся домой промокший насквозь и ещё более голодный. Желая
+                    вытереться, он небрежно поставил ноги на раскалённую печь и заснул. На следующее утро он проснулся
+                    без ног.</p>
                 <!-- 7 -->
-                <p class="p35" id="7"><b>7</b></p>
-                <p>На следующий день Джеппетто вернулся домой. Пиноккио попытался открыть дверь стучавшемуся Джеппетто, но тот не смог подойти к двери, потому что у него не было ног. Наконец Джеппетто залез в окно и понял, что на этот раз марионетка не лжет.  Пиноккио обо всех своих приключениях, рассказал ему о Сверчке, о голоде и об обожженных ногах. Старик был так тронут, что отдал Пиноккио весь свой завтрак: три груши. Поначалу Пиноккио был очень придирчив. Он приказал очистить шкуру и не захотел есть сердцевину, но когда он съел груши и все еще был голоден, он съел даже кожуру. Джеппетто предупредил его, чтобы он не привыкал к изысканной еде, ведь никогда не знаешь, что преподнесет судьба.</p>
+                <p class="p35" id="7"><b>7 - Dżeppetto wraca do domu, opiekuje się Pinokiem i karmi go gruszkami.</b>
+                </p>
+                <div class="zwuk">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/-Keqrjp0QGE?si=BJDajQ-EaIFA1K8B"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+                <p>На следующий день Джеппетто вернулся домой. Пиноккио попытался открыть дверь стучавшемуся Джеппетто,
+                    но тот не смог подойти к двери, потому что у него не было ног. Наконец Джеппетто залез в окно и
+                    понял, что на этот раз марионетка не лжет. Пиноккио обо всех своих приключениях, рассказал ему о
+                    Сверчке, о голоде и об обожженных ногах. Старик был так тронут, что отдал Пиноккио весь свой
+                    завтрак: три груши. Поначалу Пиноккио был очень придирчив. Он приказал очистить шкуру и не захотел
+                    есть сердцевину, но когда он съел груши и все еще был голоден, он съел даже кожуру. Джеппетто
+                    предупредил его, чтобы он не привыкал к изысканной еде, ведь никогда не знаешь, что преподнесет
+                    судьба.</p>
                 <!-- 8 -->
-                <p class="p35" id="8"><b>8</b></p>
-                <p>Пиноккио плакал и просил Джеппетто полдня сделать ему новые ноги. Он пообещал, что будет хорошим, пойдет в школу и поможет отцу. Джеппетто дал Пиноккио новые ноги. Он сделал это так красиво, что Пиноккио с радостью захотел пойти в школу. Потом выяснилось, что у Пиноккио не было одежды, и Джеппетто не мог позволить себе ее купить. Итак, старик сделал из бумаги аккуратный наряд с голубыми цветочками, туфли из коры и шапку из сухарей. Чтобы купить сыну букварь, Джеппетто продал свою единственную куртку и, хотя была зима, носил только жилет.</p>
+                <p class="p35" id="8"><b>8 - Dżeppetto robi Pinokiowi nowe nogi i sprzedaje płaszcz, by kupić mu
+                        elementarz.</b></p>
+                <div class="zwuk">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/zYE_krmgH2E?si=ZFku8atOHPsJwRQG"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+                <p>Пиноккио плакал и просил Джеппетто полдня сделать ему новые ноги. Он пообещал, что будет хорошим,
+                    пойдет в школу и поможет отцу. Джеппетто дал Пиноккио новые ноги. Он сделал это так красиво, что
+                    Пиноккио с радостью захотел пойти в школу. Потом выяснилось, что у Пиноккио не было одежды, и
+                    Джеппетто не мог позволить себе ее купить. Итак, старик сделал из бумаги аккуратный наряд с голубыми
+                    цветочками, туфли из коры и шапку из сухарей. Чтобы купить сыну букварь, Джеппетто продал свою
+                    единственную куртку и, хотя была зима, носил только жилет.</p>
                 <!-- 9 -->
-                <p class="p35" id="9"><b>9</b></p>
-                <p>Пиноккио впервые пошёл в школу. По пути он вынашивал планы использовать свои таланты, чтобы научиться читать, писать и считать за три дня. А потом, получив такое образование, он заработает кучу денег и купит отцу красивую куртку.</p>
-                <p>Идя по улице, он вдруг услышал звуки флейт и барабанов. Он задумался, куда идти, и наконец решил, что время на школу всегда найдется, но с барабанами и флейтами никогда не знаешь, что будет.</p>
-                <p>Подойдя к музыке, он увидел плакат, но не смог его прочитать. Мальчик, которого он просил о помощи, посмеялся над его невежеством и сказал ему, что афиша сообщала о спектаклях Театра марионеток. Пиноккио сразу захотел посмотреть спектакль, а так как денег на входной билет у него не было, то он продал свой ценный букварь.</p>
+                <p class="p35" id="9"><b>9 - Pinokio idzie do szkoły, ale sprzedaje książkę i idzie do teatru
+                        marionetek.</b></p>
+                <div class="zwuk">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/Qb52hGomagY?si=lveuJ_U7TqiI-M7E"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+                <p>Пиноккио впервые пошёл в школу. По пути он вынашивал планы использовать свои таланты, чтобы научиться
+                    читать, писать и считать за три дня. А потом, получив такое образование, он заработает кучу денег и
+                    купит отцу красивую куртку.</p>
+                <p>Идя по улице, он вдруг услышал звуки флейт и барабанов. Он задумался, куда идти, и наконец решил, что
+                    время на школу всегда найдется, но с барабанами и флейтами никогда не знаешь, что будет.</p>
+                <p>Подойдя к музыке, он увидел плакат, но не смог его прочитать. Мальчик, которого он просил о помощи,
+                    посмеялся над его невежеством и сказал ему, что афиша сообщала о спектаклях Театра марионеток.
+                    Пиноккио сразу захотел посмотреть спектакль, а так как денег на входной билет у него не было, то он
+                    продал свой ценный букварь.</p>
                 <p>Тем временем Джеппетто сидел дома, замерзая и радуясь тому, что его сын наконец-то начал учиться.</p>
                 <!-- 10 -->
-                <p class="p35" id="10"><b>10</b></p>
-                <p>Буратино опаздывал и когда он вошел в зал, представление уже шло. Во время представления куклы заметили среди зрителей Пиноккио. Они начали здороваться со своим деревянным братом. Когда на сцену выскочил Пиноккио, куклы не смогли скрыть своей радости. Шоу было прервано. Возмущенная публика потребовала возобновить игру. Затем на сцену выскочил режиссер «Пожиратель огня». Он очень рассердился и тут же навел порядок. Он обвинил Пиноккио в том, что он прервал представление</p>
-                <p>Когда после представления режиссёр жарил ягнёнка, у него закончились дрова. Тогда он приказал привести Пиноккио и бросить его в огонь.</p>
+                <p class="p35" id="10"><b>10 - W teatrze marionetki rozpoznają Pinokia, a przedstawienie zostaje
+                        przerwane.</b></p>
+                <div class="zwuk">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/ZcOCKNG4Yg8?si=ajWFwIMplDv0xY55"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+                <p>Буратино опаздывал и когда он вошел в зал, представление уже шло. Во время представления куклы
+                    заметили среди зрителей Пиноккио. Они начали здороваться со своим деревянным братом. Когда на сцену
+                    выскочил Пиноккио, куклы не смогли скрыть своей радости. Шоу было прервано. Возмущенная публика
+                    потребовала возобновить игру. Затем на сцену выскочил режиссер «Пожиратель огня». Он очень
+                    рассердился и тут же навел порядок. Он обвинил Пиноккио в том, что он прервал представление</p>
+                <p>Когда после представления режиссёр жарил ягнёнка, у него закончились дрова. Тогда он приказал
+                    привести Пиноккио и бросить его в огонь.</p>
                 <!-- 11 -->
-                <p class="p35" id="11"><b>11</b></p>
-                <p>Хотя директор выглядел устрашающе, на самом деле он был добросердечным человеком. Ogniojada был тронут  историей Пиноккио и решил сохранить ему жизнь, хотя для этого потребовалось принести в жертву Арлекина — ягненка, которого нужно было зажарить. Пиноккио отказался, он не хотел, чтобы вместо него пострадал кто-то другой. Пиноккио предложил самому прыгнуть в огонь. Режиссеру такое отношение очень понравилось, и он решил съесть полусырую баранину.</p>
+                <p class="p35" id="11"><b>11 - Ogniojad chce spalić Pinokia, lecz wzruszony daruje mu życie.</b></p>
+                <div class="zwuk">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/Hg3pnAl4G4c?si=NnJFJKdXyPbMngkH"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+                <p>Хотя директор выглядел устрашающе, на самом деле он был добросердечным человеком. Ogniojada был
+                    тронут историей Пиноккио и решил сохранить ему жизнь, хотя для этого потребовалось принести в жертву
+                    Арлекина — ягненка, которого нужно было зажарить. Пиноккио отказался, он не хотел, чтобы вместо него
+                    пострадал кто-то другой. Пиноккио предложил самому прыгнуть в огонь. Режиссеру такое отношение очень
+                    понравилось, и он решил съесть полусырую баранину.</p>
                 <!-- 12 -->
-                <p class="p35" id="12"><b>12</b></p>
-                <p>На следующий день Пожиратель Огня позвонил Пиноккио и спросил о Джеппетто, а когда узнал о бедности старика и о проданной им куртке, дал ему пять золотых и велел как можно быстрее возвращаться домой. На обратном пути Пиноккио встретил Лису, притворившуюся хромой, и Кота, притворившуюся слепой. Он услышал от них, что Джеппетто весь предыдущий день ждал возвращения сына из школы. Он был очень тронут этой новостью и скучал по папе.</p>
-                <p>Когда Лиса и Кот увидели деньги Пиноккио, они посоветовали ему отправиться с ними в Страну Дураков. Есть чудесное поле, где растут денежные деревья. Все, что вам нужно сделать, это закопать несколько монет, посыпать солью и полить двумя ведрами родниковой воды, и на следующий день появится дерево, покрытое золотом. Поначалу Пиноккио не мог на это решиться, потому что ему очень хотелось вернуться к папе. Но потом, когда Лиса и Кот подсчитали, какую выгоду он может получить от своих пяти злотых, он забыл о своих обещаниях вернуться домой и пошел с ними.</p>
+                <p class="p35" id="12"><b>12 - Pinokio dostaje pięć złotych monet i spotyka Lisa oraz Kota.</b></p>
+                <div class="zwuk">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/XzEXoZ6gd5U?si=V0Mj8ja9DvoTnbqz"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+                <p>На следующий день Пожиратель Огня позвонил Пиноккио и спросил о Джеппетто, а когда узнал о бедности
+                    старика и о проданной им куртке, дал ему пять золотых и велел как можно быстрее возвращаться домой.
+                    На обратном пути Пиноккио встретил Лису, притворившуюся хромой, и Кота, притворившуюся слепой. Он
+                    услышал от них, что Джеппетто весь предыдущий день ждал возвращения сына из школы. Он был очень
+                    тронут этой новостью и скучал по папе.</p>
+                <p>Когда Лиса и Кот увидели деньги Пиноккио, они посоветовали ему отправиться с ними в Страну Дураков.
+                    Есть чудесное поле, где растут денежные деревья. Все, что вам нужно сделать, это закопать несколько
+                    монет, посыпать солью и полить двумя ведрами родниковой воды, и на следующий день появится дерево,
+                    покрытое золотом. Поначалу Пиноккио не мог на это решиться, потому что ему очень хотелось вернуться
+                    к папе. Но потом, когда Лиса и Кот подсчитали, какую выгоду он может получить от своих пяти злотых,
+                    он забыл о своих обещаниях вернуться домой и пошел с ними.</p>
                 <!-- 13 -->
-                <p class="p35" id="13"><b>13</b></p>
-                <p>Шли они целый день и к вечеру добрались до трактира «Красный рак». Лиса и Кот сытно поужинали за счет Пиноккио. Затем все трое легли спать, а в полночь им предстояло продолжить путь. Когда Пиноккио проснулся, оказалось, что его спутники ушли раньше. Поэтому ему пришлось идти одному, в темноте ночи.</p>
-                <p>Затем он встретил Тень Говорящего Сверчка, которая посоветовала ему отнести оставшиеся деньги отцу и не верить его обещанию внезапного богатства. Но Пиноккио, как обычно, отказался прислушаться к здравому совету и ушёл.</p>
+                <p class="p35" id="13"><b>13 - Pinokio nocuje w gospodzie „Pod Czerwonym Rakiem” i zostaje oszukany.</b>
+                </p>
+                <div class="zwuk">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/zgpUaTlJQVM?si=JB9xde0f-uIcYMvc"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+                <p>Шли они целый день и к вечеру добрались до трактира «Красный рак». Лиса и Кот сытно поужинали за счет
+                    Пиноккио. Затем все трое легли спать, а в полночь им предстояло продолжить путь. Когда Пиноккио
+                    проснулся, оказалось, что его спутники ушли раньше. Поэтому ему пришлось идти одному, в темноте
+                    ночи.</p>
+                <p>Затем он встретил Тень Говорящего Сверчка, которая посоветовала ему отнести оставшиеся деньги отцу и
+                    не верить его обещанию внезапного богатства. Но Пиноккио, как обычно, отказался прислушаться к
+                    здравому совету и ушёл.</p>
                 <!-- 14 -->
-                <p class="p35" id="14"><b>14</b></p>
-                <p>По пути он пренебрежительно думал о словах Говорящего Сверчка и считал, что тот достаточно умен и находчив, чтобы самому предотвратить мошенничество. Пока внезапно на него не напали две фигуры в масках. Пиноккио сумел спрятать деньги под языком и никоим образом не позволил их у себя отобрать. По этой причине он откусил лапу одному из нападавших и даже немного удивился, когда это оказалась кошачья лапа. В подходящий момент Пиноккио удалось скрыться, но грабители упорно преследовали его.</p>
+                <p class="p35" id="14"><b>14 - Pinokio zostaje napadnięty przez zbójców przebranych za Lisa i Kota.</b>
+                </p>
+                <div class="zwuk">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/ERDc8U_VAZo?si=JmqnLY1L_iLxcS0i"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+                <p>По пути он пренебрежительно думал о словах Говорящего Сверчка и считал, что тот достаточно умен и
+                    находчив, чтобы самому предотвратить мошенничество. Пока внезапно на него не напали две фигуры в
+                    масках. Пиноккио сумел спрятать деньги под языком и никоим образом не позволил их у себя отобрать.
+                    По этой причине он откусил лапу одному из нападавших и даже немного удивился, когда это оказалась
+                    кошачья лапа. В подходящий момент Пиноккио удалось скрыться, но грабители упорно преследовали его.
+                </p>
                 <!-- 15 -->
-                <p class="p35" id="15"><b>15</b></p>
-                <p>Он бежал долго, пока не достиг небольшого белого домика за лесом. Он начал стучать в дверь, но никто ее не открыл. Только красивая девушка с синими волосами появилась у окна и сказала ему, что он не может войти в дом, потому что там больше никто не живет, все мертвы.</p>
-                <p>Наконец грабители догнали его и, не сумев вытащить деньги изо рта, повесили его на Большом Дубе и стали ждать, пока он умрет. Поскольку это занимало слишком много времени, они оставили его и пообещали вернуться на следующий день. Когда Пиноккио повесили, он сильно пострадал. Подбрасываемый порывами ветра, он ослабел, открыл рот и потерял сознание.</p>
+                <p class="p35" id="15"><b>15 - Pinokio trafia do domu Wróżki o Niebieskich Włosach i kłamie – rośnie mu
+                        nos.</b></p>
+                <div class="zwuk">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/so6sCUW7aSY?si=I2vkatNNZ6nJJY_H"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+                <p>Он бежал долго, пока не достиг небольшого белого домика за лесом. Он начал стучать в дверь, но никто
+                    ее не открыл. Только красивая девушка с синими волосами появилась у окна и сказала ему, что он не
+                    может войти в дом, потому что там больше никто не живет, все мертвы.</p>
+                <p>Наконец грабители догнали его и, не сумев вытащить деньги изо рта, повесили его на Большом Дубе и
+                    стали ждать, пока он умрет. Поскольку это занимало слишком много времени, они оставили его и
+                    пообещали вернуться на следующий день. Когда Пиноккио повесили, он сильно пострадал. Подбрасываемый
+                    порывами ветра, он ослабел, открыл рот и потерял сознание.</p>
                 <!-- 16 -->
-                <p class="p35" id="16"><b>16</b></p>
-                <p>Девушка, выглянув в окно, увидела висящего Пиноккио и пожалела его. Поэтому она быстро послала сокола и приказала ему перерезать веревку. Тогда она приказала ливреевому пуделю поехать за Пиноккио в карете. Сама карета выглядела весьма своеобразно. Он был прозрачным, изнутри покрыт взбитыми сливками, и его тянули двенадцать белых мышей. Как оказалось, красивая девушка была доброй Феей, которая уже сто лет жила в белом доме за лесом.</p>
-                <p>Когда принесли Пиноккио, она позвала трёх врачей: Ворона, Сову и Говорящего Сверчка. Они должны были сказать, жив ли еще Пиноккио. Ворон и Сова осмотрели его и не вынесли однозначного вердикта. Однако Говорящий сверчок использовал другой метод, чтобы проверить, жив ли Пиноккио. Речь шла о хулигане и бродяге, который является плохим сыном и доставляет неприятности своему папе. Пиноккио, слушая слова Сверчка, расплакался.</p>
+                <p class="p35" id="16"><b>16 - Doktorzy badają Pinokia, a Wróżka znika, zostawiając go samego.</b></p>
+                <div class="zwuk">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/pIMjZ6EDYWg?si=rdGZxq7VboBW8kHQ"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+                <p>Девушка, выглянув в окно, увидела висящего Пиноккио и пожалела его. Поэтому она быстро послала сокола
+                    и приказала ему перерезать веревку. Тогда она приказала ливреевому пуделю поехать за Пиноккио в
+                    карете. Сама карета выглядела весьма своеобразно. Он был прозрачным, изнутри покрыт взбитыми
+                    сливками, и его тянули двенадцать белых мышей. Как оказалось, красивая девушка была доброй Феей,
+                    которая уже сто лет жила в белом доме за лесом.</p>
+                <p>Когда принесли Пиноккио, она позвала трёх врачей: Ворона, Сову и Говорящего Сверчка. Они должны были
+                    сказать, жив ли еще Пиноккио. Ворон и Сова осмотрели его и не вынесли однозначного вердикта. Однако
+                    Говорящий сверчок использовал другой метод, чтобы проверить, жив ли Пиноккио. Речь шла о хулигане и
+                    бродяге, который является плохим сыном и доставляет неприятности своему папе. Пиноккио, слушая слова
+                    Сверчка, расплакался.</p>
                 <!-- 17 -->
-                <p class="p35" id="17"><b>17</b></p>
-                <p>Когда Пиноккио выздоровел, оказалось, что у него очень высокая температура. Фея дала ему лекарство, которое он отказался пить. Она пыталась подкупить его кусочками сахара, но он съел сахар и не запил лекарство. Наконец, гадалка сказала ему, что если он еще будет гримасничать, то умрет. Словно в подтверждение ее слов в комнату вошли четыре черных кролика с гробом. Пиноккио так испугался, что тут же выпил горькое лекарство. И через час он был здоров.</p>
-                <p>По просьбе гадалки он рассказал о нападении грабителей, но когда она спросила его, что случилось с деньгами, он соврал, что их у него нет, потому что он потерял или проглотил монеты. С каждой ложью его нос становился все длиннее и длиннее. Он стал настолько большим, что Пиноккио не мог выйти из комнаты.</p>
+                <p class="p35" id="17"><b>17 - Pinokio znów wierzy Lisowi i Kotu i zakopuje monety na Polu Cudów.</b>
+                </p>
+                <div class="zwuk">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/JX2IYy9vZhk?si=eoOza8oINHMlu7tN"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+                <p>Когда Пиноккио выздоровел, оказалось, что у него очень высокая температура. Фея дала ему лекарство,
+                    которое он отказался пить. Она пыталась подкупить его кусочками сахара, но он съел сахар и не запил
+                    лекарство. Наконец, гадалка сказала ему, что если он еще будет гримасничать, то умрет. Словно в
+                    подтверждение ее слов в комнату вошли четыре черных кролика с гробом. Пиноккио так испугался, что
+                    тут же выпил горькое лекарство. И через час он был здоров.</p>
+                <p>По просьбе гадалки он рассказал о нападении грабителей, но когда она спросила его, что случилось с
+                    деньгами, он соврал, что их у него нет, потому что он потерял или проглотил монеты. С каждой ложью
+                    его нос становился все длиннее и длиннее. Он стал настолько большим, что Пиноккио не мог выйти из
+                    комнаты.</p>
                 <!-- 18 -->
-                <p class="p35" id="18"><b>18</b></p>
-                <p>Фея преподала лжецу урок, но затем сжалилась над ним и призвала дятлов, которые отрезали ему разросшийся нос.</p>
-                <p>Девушке понравился Пиноккио, и она предложила ему остаться в белом доме. Пиноккио был очень рад, и его радость была еще больше, когда он узнал, что Джеппетто тоже будет жить с ними. Пиноккио пошёл навстречу папе и по дороге возле Большого Дуба увидел Лису и Кота. Он спросил, что случилось с кошачьей лапой, и услышал историю о голодающих животных, которых кошка спасла, дав им съесть свою лапу. Они снова предложили ему пойти на поле чудес и сказали, что ему нужно поторопиться, потому что на следующий день поле будет продано. Пиноккио помнил своего папу, Фею и Сверчка, но все равно пошел с Лисой и Котом.</p>
-                <p>Через несколько часов пути они достигли города Хвитайцимбалув. Там Пиноккио заметил собак и кошек без шерсти, бабочек без крыльев, павлинов без хвостов и кур без гребней. И между всеми этими бедняками время от времени проезжали повозки с лисами, сороками и другими хищниками.</p>
-                <p>Кот и Лис привели Пиноккио на чудесное поле. Клоун закопал монеты в землю и ушёл на несколько часов.</p>
+                <p class="p35" id="18"><b>18 - Papuga zdradza Pinokiowi prawdę o oszustwie Lisa i Kota.</b></p>
+                <div class="zwuk">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/P4sTF8Mbze8?si=oac7ZVW77hQ2lIz_"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+                <p>Фея преподала лжецу урок, но затем сжалилась над ним и призвала дятлов, которые отрезали ему
+                    разросшийся нос.</p>
+                <p>Девушке понравился Пиноккио, и она предложила ему остаться в белом доме. Пиноккио был очень рад, и
+                    его радость была еще больше, когда он узнал, что Джеппетто тоже будет жить с ними. Пиноккио пошёл
+                    навстречу папе и по дороге возле Большого Дуба увидел Лису и Кота. Он спросил, что случилось с
+                    кошачьей лапой, и услышал историю о голодающих животных, которых кошка спасла, дав им съесть свою
+                    лапу. Они снова предложили ему пойти на поле чудес и сказали, что ему нужно поторопиться, потому что
+                    на следующий день поле будет продано. Пиноккио помнил своего папу, Фею и Сверчка, но все равно пошел
+                    с Лисой и Котом.</p>
+                <p>Через несколько часов пути они достигли города Хвитайцимбалув. Там Пиноккио заметил собак и кошек без
+                    шерсти, бабочек без крыльев, павлинов без хвостов и кур без гребней. И между всеми этими бедняками
+                    время от времени проезжали повозки с лисами, сороками и другими хищниками.</p>
+                <p>Кот и Лис привели Пиноккио на чудесное поле. Клоун закопал монеты в землю и ушёл на несколько часов.
+                </p>
                 <!-- 19 -->
-                <p class="p35" id="19"><b>19</b></p>
-                <p>Когда Пиноккио вернулся, деревца уже не было. Он начал поливать закопанные монеты, но вдруг услышал смех ощипанной Попугаихи. От неё он узнал об обмане Лиса и Кота. Попугаиха рассказала, что и сама когда-то была обманута и хорошо знает, что «чтобы честно накопить хоть несколько грошей, нужно уметь заработать их собственным трудом или собственным умом».</p>
-                <p>Пиноккио отправился жаловаться судье Горилле, но не только не получил никакой помощи, а ещё и был брошен в тюрьму. Там он провёл четыре месяца. Освободили его лишь потому, что император победил своих врагов в городе и в порыве радости приказал выпустить всех разбойников. Пиноккио солгал, что он тоже является преступником, и таким образом оказался на свободе.</p>
+                <p class="p35" id="19"><b>19 - Sędzia Goryl wtrąca Pinokia do więzienia, skąd wychodzi dzięki
+                        kłamstwu.</b></p>
+                <div class="zwuk">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/Em0aq0NXO28?si=kc36GYZ1ZAG3DTOr"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+                <p>Когда Пиноккио вернулся, деревца уже не было. Он начал поливать закопанные монеты, но вдруг услышал
+                    смех ощипанной Попугаихи. От неё он узнал об обмане Лиса и Кота. Попугаиха рассказала, что и сама
+                    когда-то была обманута и хорошо знает, что «чтобы честно накопить хоть несколько грошей, нужно уметь
+                    заработать их собственным трудом или собственным умом».</p>
+                <p>Пиноккио отправился жаловаться судье Горилле, но не только не получил никакой помощи, а ещё и был
+                    брошен в тюрьму. Там он провёл четыре месяца. Освободили его лишь потому, что император победил
+                    своих врагов в городе и в порыве радости приказал выпустить всех разбойников. Пиноккио солгал, что
+                    он тоже является преступником, и таким образом оказался на свободе.</p>
                 <!-- 20 -->
-                <p class="p35" id="20"><b>20</b></p>
-                <p>Как можно быстрее Пиноккио покинул город и направился к дому Феи. По дороге он размышлял о себе и своём непослушании. Теперь он уже знал, как плохо приходится мальчикам, которые не слушают добрых советов.</p>
-                <p>По пути он увидел змею, лежавшую поперёк дороги. Змея была огромной и к тому же изрыгала дым. Пиноккио сел и стал ждать, пока она уйдёт. Это длилось слишком долго, и тогда он решился перепрыгнуть через неё. Но в этот момент поскользнулся и упал в грязь. Змея, увидев это, так расхохоталась, что лопнула, и дорога стала свободной.</p>
-                <p>Пиноккио проголодался и, чтобы поесть, зашёл на ближайшее виноградное поле. Там ему не повезло — он попал в ловушку для куниц.</p>
+                <p class="p35" id="20"><b>20 - Pinokio spotyka węża, wpada w błoto i trafia w pułapkę na kuny.</b></p>
+                <div class="zwuk">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/KQ48h60pk0U?si=TjxWnDXjNKTmugJb"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+                <p>Как можно быстрее Пиноккио покинул город и направился к дому Феи. По дороге он размышлял о себе и
+                    своём непослушании. Теперь он уже знал, как плохо приходится мальчикам, которые не слушают добрых
+                    советов.</p>
+                <p>По пути он увидел змею, лежавшую поперёк дороги. Змея была огромной и к тому же изрыгала дым.
+                    Пиноккио сел и стал ждать, пока она уйдёт. Это длилось слишком долго, и тогда он решился
+                    перепрыгнуть через неё. Но в этот момент поскользнулся и упал в грязь. Змея, увидев это, так
+                    расхохоталась, что лопнула, и дорога стала свободной.</p>
+                <p>Пиноккио проголодался и, чтобы поесть, зашёл на ближайшее виноградное поле. Там ему не повезло — он
+                    попал в ловушку для куниц.</p>
                 <!-- 21 -->
-                <p class="p35" id="21"><b>21</b></p>
-                <p>Пришёл хозяин поля и принял Пиноккио за вредителя, который ворует кур из курятника. Он отвёл его в хижину и привязал возле будки, чтобы тот охранял двор вместо недавно погибшей собаки.</p>
+                <p class="p35" id="21"><b>21 - Pinokio zostaje przywiązany przy budzie jako stróż zamiast psa.</b></p>
+                <div class="zwuk">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/90rxj51tOxM?si=B9s_eLIkcSo8Ea_6"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+                <p>Пришёл хозяин поля и принял Пиноккио за вредителя, который ворует кур из курятника. Он отвёл его в
+                    хижину и привязал возле будки, чтобы тот охранял двор вместо недавно погибшей собаки.</p>
                 <!-- 22 -->
-                <p class="p35" id="22"><b>22</b></p>
-                <p>Ночью Пиноккио разбудили шорохи. Оказалось, что пришли четыре куницы. Они предложили ему такой же уговор, какой был у них с собакой: если раз в неделю он будет позволять им воровать, то получит часть добычи. Пиноккио сделал вид, что согласился. Когда куницы вошли в курятник, он запер их там и поднял тревогу. Хозяин обрадовался и освободил Пиноккио.</p>
+                <p class="p35" id="22"><b>22 - Pinokio nie zgadza się na kradzież i pomaga schwytać kuny.</b></p>
+                <div class="zwuk">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/qEkuCrJidKU?si=kfstrLEVPROMfGh0"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+                <p>Ночью Пиноккио разбудили шорохи. Оказалось, что пришли четыре куницы. Они предложили ему такой же
+                    уговор, какой был у них с собакой: если раз в неделю он будет позволять им воровать, то получит
+                    часть добычи. Пиноккио сделал вид, что согласился. Когда куницы вошли в курятник, он запер их там и
+                    поднял тревогу. Хозяин обрадовался и освободил Пиноккио.</p>
                 <!-- 23 -->
-                <p class="p35" id="23"><b>23</b></p>
-                <p>Пиноккио наконец добрался до места, где раньше стоял дом Феи. Теперь там была только табличка с надписью о том, что Фея умерла от горя после потери Пиноккио. Он очень опечалился и долго плакал.</p>
-                <p>Вдруг прилетел Голубь и рассказал, что несколько дней назад отвёз Джеппетто к морю. Старик хотел искать своего сына за океаном. Голубь предложил отнести Пиноккио туда, где он оставил его отца.</p>
-                <p>Они долго летели. Когда добрались до места, Джеппетто там уже не было. В бушующем море Пиноккио увидел лодку с отцом, но вскоре она исчезла в волнах. Пиноккио прыгнул в море, чтобы спасти его, но, несмотря на то что он был лёгким и хорошо плавал, отца найти не смог.</p>
+                <p class="p35" id="23"><b>23 - Pinokio dowiaduje się o rzekomej śmierci Wróżki i wyrusza szukać
+                        ojca.</b></p>
+                <div class="zwuk">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/J0yDYnLPGwo?si=BQFcqO5a_jIsfhGI"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+                <p>Пиноккио наконец добрался до места, где раньше стоял дом Феи. Теперь там была только табличка с
+                    надписью о том, что Фея умерла от горя после потери Пиноккио. Он очень опечалился и долго плакал.
+                </p>
+                <p>Вдруг прилетел Голубь и рассказал, что несколько дней назад отвёз Джеппетто к морю. Старик хотел
+                    искать своего сына за океаном. Голубь предложил отнести Пиноккио туда, где он оставил его отца.</p>
+                <p>Они долго летели. Когда добрались до места, Джеппетто там уже не было. В бушующем море Пиноккио
+                    увидел лодку с отцом, но вскоре она исчезла в волнах. Пиноккио прыгнул в море, чтобы спасти его, но,
+                    несмотря на то что он был лёгким и хорошо плавал, отца найти не смог.</p>
                 <!-- 24 -->
-                <p class="p35" id="24"><b>24</b></p>
-                <p>Пиноккио плыл всю бурную ночь. Утром он достиг берега неизвестного острова. Проплывающий мимо дельфин сообщил ему, что это Остров Трудолюбивых Пчёл, а также предупредил о громадной акуле, которая свирепствует поблизости.</p>
-                <p>Пиноккио отправился вглубь острова и дошёл до города. Он был очень голоден, но стыдился просить милостыню, ведь отец учил его, что «просить подаяние могут только те, кто из-за старости или болезни уже не в состоянии заработать на хлеб собственным трудом». Однако, увидев угольщика, он забыл об этом и попросил милостыню. Тот предложил дать деньги за помощь в перевозке тележек, но Пиноккио обиделся — он хотел есть, а не работать. В конце концов, соблазнившись хорошей едой, он помог женщине нести лейки с водой и узнал в ней свою добрую Фею.</p>
+                <p class="p35" id="24"><b>24 - Pinokio dopływa na Wyspę Pracowitych Pszczół.</b></p>
+                <div class="zwuk">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/xJfqt5dc_gc?si=jMWqfX61SMUV7y4u"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+                <p>Пиноккио плыл всю бурную ночь. Утром он достиг берега неизвестного острова. Проплывающий мимо дельфин
+                    сообщил ему, что это Остров Трудолюбивых Пчёл, а также предупредил о громадной акуле, которая
+                    свирепствует поблизости.</p>
+                <p>Пиноккио отправился вглубь острова и дошёл до города. Он был очень голоден, но стыдился просить
+                    милостыню, ведь отец учил его, что «просить подаяние могут только те, кто из-за старости или болезни
+                    уже не в состоянии заработать на хлеб собственным трудом». Однако, увидев угольщика, он забыл об
+                    этом и попросил милостыню. Тот предложил дать деньги за помощь в перевозке тележек, но Пиноккио
+                    обиделся — он хотел есть, а не работать. В конце концов, соблазнившись хорошей едой, он помог
+                    женщине нести лейки с водой и узнал в ней свою добрую Фею.</p>
                 <!-- 25 -->
-                <p class="p35" id="25"><b>25</b></p>
-                <p>Фея уже была не девочкой, а взрослой женщиной. Она стала для Пиноккио доброй матерью, а он пообещал быть хорошим сыном — настолько хорошим, чтобы однажды заслужить право стать настоящим мальчиком. Пиноккио пообещал ходить в школу и получить профессию или выучить ремесло, потому что «в этом мире каждый человек, богатый он или бедный, обязан чем-то заниматься, что-то делать и работать».</p>
+                <p class="p35" id="25"><b>25 - Wróżka staje się dla Pinokia matką, a on obiecuje poprawę.</b></p>
+                <div class="zwuk">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/Bql6cdMh6zE?si=hyK0-V89dr8CUpBe"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+                <p>Фея уже была не девочкой, а взрослой женщиной. Она стала для Пиноккио доброй матерью, а он пообещал
+                    быть хорошим сыном — настолько хорошим, чтобы однажды заслужить право стать настоящим мальчиком.
+                    Пиноккио пообещал ходить в школу и получить профессию или выучить ремесло, потому что «в этом мире
+                    каждый человек, богатый он или бедный, обязан чем-то заниматься, что-то делать и работать».</p>
                 <!-- 26 -->
-                <p class="p35" id="26"><b>26</b></p>
-                <p>Пиноккио остался на Острове Трудолюбивых Пчёл и пошёл в школу. Он был прилежным, старательным и способным учеником. Сначала одноклассники смеялись над его внешностью, но, узнав силу его пинков, стали относиться к нему с уважением.</p>
-                <p>Учителя и Фея радовались его успехам, но тревожились из-за плохой компании. Они боялись, что друзья собьют Пиноккио с правильного пути — и так и случилось. Мальчики рассказали ему о якобы появившейся у берега акуле и предложили пойти посмотреть. Любопытство взяло верх, и Пиноккио пошёл с ними. Акулы не оказалось — мальчики просто хотели, чтобы он прогулял школу и потерял репутацию отличника. Из-за этого началась драка.</p>
+                <p class="p35" id="26"><b>26 - Pinokio pilnie się uczy, ale ulega złemu towarzystwu.</b></p>
+                <div class="zwuk">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/lly-i3SrFUk?si=hgzIrbUeyQFvG1Qq"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+                <p>Пиноккио остался на Острове Трудолюбивых Пчёл и пошёл в школу. Он был прилежным, старательным и
+                    способным учеником. Сначала одноклассники смеялись над его внешностью, но, узнав силу его пинков,
+                    стали относиться к нему с уважением.</p>
+                <p>Учителя и Фея радовались его успехам, но тревожились из-за плохой компании. Они боялись, что друзья
+                    собьют Пиноккио с правильного пути — и так и случилось. Мальчики рассказали ему о якобы появившейся
+                    у берега акуле и предложили пойти посмотреть. Любопытство взяло верх, и Пиноккио пошёл с ними. Акулы
+                    не оказалось — мальчики просто хотели, чтобы он прогулял школу и потерял репутацию отличника. Из-за
+                    этого началась драка.</p>
                 <!-- 27 -->
-                <p class="p35" id="27"><b>27</b></p>
-                <p>Один из мальчиков хотел ударить Пиноккио тяжёлой книгой, но случайно попал в другого ученика. Тот потерял сознание, а остальные убежали. Пиноккио остался и пытался помочь пострадавшему. Пришли карабинеры и признали Пиноккио виновным. Они хотели отвести его в тюрьму, но по дороге ему удалось сбежать. За ним погнался бульдог.</p>
+                <p class="p35" id="27"><b>27 - Dochodzi do bójki, Pinokio zostaje niesłusznie oskarżony i ucieka.</b>
+                </p>
+                <div class="zwuk">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/_9TwHcaFlvc?si=I4QTw6utEpMa1497"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+                <p>Один из мальчиков хотел ударить Пиноккио тяжёлой книгой, но случайно попал в другого ученика. Тот
+                    потерял сознание, а остальные убежали. Пиноккио остался и пытался помочь пострадавшему. Пришли
+                    карабинеры и признали Пиноккио виновным. Они хотели отвести его в тюрьму, но по дороге ему удалось
+                    сбежать. За ним погнался бульдог.</p>
                 <!-- 28 -->
-                <p class="p35" id="28"><b>28</b></p>
-                <p>Пиноккио прыгнул в воду, и собака последовала за ним. Однако оказалось, что бульдог не умеет плавать, и если бы Пиноккио не помог ему, он бы утонул. Они расстались друзьями.</p>
-                <p>Пиноккио продолжал плыть вдоль берега и попал в рыболовную сеть. Рыбак обвалял его в муке, как обычную рыбу, и хотел бросить на сковороду. В этот момент в пещеру вбежал бульдог, привлечённый запахами. Это была та самая собака, которую спас Пиноккио. Узнав своего спасителя, пёс схватил его и убежал.</p>
+                <p class="p35" id="28"><b>28 - Pinokio ratuje buldoga i sam zostaje uratowany przez niego.</b></p>
+                <div class="zwuk">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/-zoFMBDZ20o?si=pHKIsL5Oh9o_vlbj"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+                <p>Пиноккио прыгнул в воду, и собака последовала за ним. Однако оказалось, что бульдог не умеет плавать,
+                    и если бы Пиноккио не помог ему, он бы утонул. Они расстались друзьями.</p>
+                <p>Пиноккио продолжал плыть вдоль берега и попал в рыболовную сеть. Рыбак обвалял его в муке, как
+                    обычную рыбу, и хотел бросить на сковороду. В этот момент в пещеру вбежал бульдог, привлечённый
+                    запахами. Это была та самая собака, которую спас Пиноккио. Узнав своего спасителя, пёс схватил его и
+                    убежал.</p>
                 <!-- 29 -->
-                <p class="p35" id="29"><b>29</b></p>
-                <p>Освобождённый Пиноккио направился к городу. По дороге он зашёл в рыбацкую деревню, чтобы узнать о раненом мальчике. Ему сказали, что тот поправляется, но все считают, что Пиноккио — хулиган, который его избил, и должен быть строго наказан. Не признаваясь, кто он такой, Пиноккио начал хвалить Пиноккио, но в тот же миг его нос опасно удлинился.</p>
-                <p>Когда он добрался до города, уже был поздний вечер. Он постучал в дом Феи, но все спали. Привратник Улитка всю ночь спускался с четвёртого этажа. За это время голодный и уставший Пиноккио рассердился и пнул дверь. Его нога застряла в дереве, и он не мог её вытащить. Утром дверь открыли, но пришлось ждать плотника. Когда Улитка принёс завтрак, оказалось, что еда была искусственной. Пиноккио потерял сознание и очнулся уже в доме.</p>
-                <p>Фея дала ему ещё один шанс. Целый год он прилежно учился и в конце получил диплом с отличием. В награду за хорошее поведение он должен был превратиться в мальчика, и Фея готовила праздник.</p>
+                <p class="p35" id="29"><b>29 - Pinokio znów kłamie, nos mu rośnie, ale Wróżka daje mu ostatnią
+                        szansę.</b></p>
+                <div class="zwuk">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/d-Xz7sXjQxs?si=1WokYZ4vsMCUzJel"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+                <p>Освобождённый Пиноккио направился к городу. По дороге он зашёл в рыбацкую деревню, чтобы узнать о
+                    раненом мальчике. Ему сказали, что тот поправляется, но все считают, что Пиноккио — хулиган, который
+                    его избил, и должен быть строго наказан. Не признаваясь, кто он такой, Пиноккио начал хвалить
+                    Пиноккио, но в тот же миг его нос опасно удлинился.</p>
+                <p>Когда он добрался до города, уже был поздний вечер. Он постучал в дом Феи, но все спали. Привратник
+                    Улитка всю ночь спускался с четвёртого этажа. За это время голодный и уставший Пиноккио рассердился
+                    и пнул дверь. Его нога застряла в дереве, и он не мог её вытащить. Утром дверь открыли, но пришлось
+                    ждать плотника. Когда Улитка принёс завтрак, оказалось, что еда была искусственной. Пиноккио потерял
+                    сознание и очнулся уже в доме.</p>
+                <p>Фея дала ему ещё один шанс. Целый год он прилежно учился и в конце получил диплом с отличием. В
+                    награду за хорошее поведение он должен был превратиться в мальчика, и Фея готовила праздник.</p>
                 <!-- 30 -->
-                <p class="p35" id="30"><b>30</b></p>
-                <p>Пиноккио пошёл приглашать друзей на праздник. Долго он не мог найти Кнута. Наконец он нашёл его на чердаке, где тот готовился ехать в Страну Игрушек и уговаривал Пиноккио поехать вместе с ним, рассказывая о вечных развлечениях и безделье.</p>
+                <p class="p35" id="30"><b>30 - Pinokio spotyka Knota, który namawia go na wyjazd do Krainy Zabawek.</b>
+                </p>
+                <div class="zwuk">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/JdBKrpcosW0?si=hdCBfBRj694RdMsx"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+                <p>Пиноккио пошёл приглашать друзей на праздник. Долго он не мог найти Кнута. Наконец он нашёл его на
+                    чердаке, где тот готовился ехать в Страну Игрушек и уговаривал Пиноккио поехать вместе с ним,
+                    рассказывая о вечных развлечениях и безделье.</p>
                 <!-- 31 -->
-                <p class="p35" id="31"><b>31</b></p>
-                <p>Пиноккио не хотел ехать, но и уйти не решался. Наконец приехала повозка, запряжённая двенадцатью парами осликов, у каждого из которых были детские башмачки. Все места были заняты, и Кнуту пришлось сесть на оглоблю. Когда Пиноккио решил ехать, возница велел ему сесть на ослика, но тот сбрасывал его. Тогда возница откусил ослику по кусочку каждого уха, и животное подчинилось. По дороге Пиноккио услышал тихий голос, упрекавший его, но он не обратил на это внимания. Пять месяцев в Стране Игрушек он отлично проводил время.</p>
+                <p class="p35" id="31"><b>31 - Pinokio jedzie do Krainy Zabawek.</b></p>
+                <div class="zwuk">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/TNF0J9UXO94?si=f6vy41TClDtlnUr7"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+                <p>Пиноккио не хотел ехать, но и уйти не решался. Наконец приехала повозка, запряжённая двенадцатью
+                    парами осликов, у каждого из которых были детские башмачки. Все места были заняты, и Кнуту пришлось
+                    сесть на оглоблю. Когда Пиноккио решил ехать, возница велел ему сесть на ослика, но тот сбрасывал
+                    его. Тогда возница откусил ослику по кусочку каждого уха, и животное подчинилось. По дороге Пиноккио
+                    услышал тихий голос, упрекавший его, но он не обратил на это внимания. Пять месяцев в Стране Игрушек
+                    он отлично проводил время.</p>
                 <!-- 32 -->
-                <p class="p35" id="32"><b>32</b></p>
-                <p>Однажды утром Пиноккио обнаружил у себя ослиные уши и голову. Он узнал, что все ленивые мальчики, презирающие школу и книги, рано или поздно превращаются в ослов. Он встретил Кнута и увидел, что с ним произошло то же самое. Вместо того чтобы расстроиться, они начали дурачиться. Вскоре у них выросли хвосты, и через несколько часов они окончательно стали ослами.</p>
+                <p class="p35" id="32"><b>32 - Pinokio zamienia się w osła.</b></p>
+                <div class="zwuk">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/Qn06EOpHcjg?si=nFKxavBlbWSiNHA3"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+                <p>Однажды утром Пиноккио обнаружил у себя ослиные уши и голову. Он узнал, что все ленивые мальчики,
+                    презирающие школу и книги, рано или поздно превращаются в ослов. Он встретил Кнута и увидел, что с
+                    ним произошло то же самое. Вместо того чтобы расстроиться, они начали дурачиться. Вскоре у них
+                    выросли хвосты, и через несколько часов они окончательно стали ослами.</p>
                 <!-- 33 -->
-                <p class="p35" id="33"><b>33</b></p>
-                <p>На следующий день их продали на рынке. Кнут попал к крестьянину, а Пиноккио купил директор цирка, который хотел иметь дрессированного осла. Три месяца Пиноккио тяжело работал, терпел побои и ел сено. Во время первого выступления он увидел Фею, но от огорчения неудачно прыгнул и сломал ногу.</p>
-                <p>Ветеринар решил, что осёл больше не годится для выступлений, и его продали человеку, который хотел сделать из его шкуры барабан. Тот отвёл Пиноккио к морю, чтобы утопить его.</p>
+                <p class="p35" id="33"><b>33 - Pinokio pracuje w cyrku i zostaje sprzedany.</b></p>
+                <div class="zwuk">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/j7xAq5cAdac?si=XZ2LWakWclfHU6z2"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+                <p>На следующий день их продали на рынке. Кнут попал к крестьянину, а Пиноккио купил директор цирка,
+                    который хотел иметь дрессированного осла. Три месяца Пиноккио тяжело работал, терпел побои и ел
+                    сено. Во время первого выступления он увидел Фею, но от огорчения неудачно прыгнул и сломал ногу.
+                </p>
+                <p>Ветеринар решил, что осёл больше не годится для выступлений, и его продали человеку, который хотел
+                    сделать из его шкуры барабан. Тот отвёл Пиноккио к морю, чтобы утопить его.</p>
                 <!-- 34 -->
-                <p class="p35" id="34"><b>34</b></p>
-                <p>Когда купец потянул за верёвку, вместо осла из воды появился Пиноккио. Рыбы съели ослиное тело, и он вернулся к прежнему облику. Купец решил продать его как дрова, но Пиноккио убежал в море. Он увидел Фею в образе голубой козы, но прежде чем доплыл до неё, был проглочен огромной акулой. В её брюхе он встретил Тунца и решил искать выход.</p>
+                <p class="p35" id="34"><b>34 - Pinokio wraca do postaci pajaca i zostaje połknięty przez rekina.</b></p>
+                <div class="zwuk">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/yrRLYogqWko?si=YsfLaRkD1JSeMOVZ"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+                <p>Когда купец потянул за верёвку, вместо осла из воды появился Пиноккио. Рыбы съели ослиное тело, и он
+                    вернулся к прежнему облику. Купец решил продать его как дрова, но Пиноккио убежал в море. Он увидел
+                    Фею в образе голубой козы, но прежде чем доплыл до неё, был проглочен огромной акулой. В её брюхе он
+                    встретил Тунца и решил искать выход.</p>
                 <!-- 35 -->
-                <p class="p35" id="35"><b>35</b></p>
-                <p>Пиноккио увидел накрытый стол и свечу. За столом сидел Джеппетто. Отец рассказал, что уже два года живёт в брюхе акулы благодаря запасам с проглоченного корабля. Когда акула заснула с открытой пастью, они сбежали.</p>
+                <p class="p35" id="35"><b>35 - W brzuchu rekina Pinokio odnajduje Dżeppetta i ucieka z nim.</b></p>
+                <div class="zwuk">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/3ylM5HMjZq8?si=TJerPcxBaqJDi9zf"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+                <p>Пиноккио увидел накрытый стол и свечу. За столом сидел Джеппетто. Отец рассказал, что уже два года
+                    живёт в брюхе акулы благодаря запасам с проглоченного корабля. Когда акула заснула с открытой
+                    пастью, они сбежали.</p>
                 <!-- 36 -->
-                <p class="p35" id="36"><b>36</b></p>
-                <p>Пиноккио нёс отца на плечах и плыл, пока не выбился из сил. Им помог Тунец. На берегу они встретили Лиса и Кота, но Пиноккио не стал им помогать. Он тяжело работал, заботился об отце и отдал все деньги больной Фее. За доброту и самоотверженность Пиноккио был награждён — он стал настоящим мальчиком.</p>               
+                <p class="p35" id="36"><b>36 - Pinokio ciężko pracuje, pomaga ojcu i zostaje nagrodzony – staje się
+                        prawdziwym chłopcem.</b></p>
+                <div class="zwuk">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/o1AlCxJ-Y3g?si=8TOlFoCyY-CVwHcl"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+                <p>Пиноккио нёс отца на плечах и плыл, пока не выбился из сил. Им помог Тунец. На берегу они встретили
+                    Лиса и Кота, но Пиноккио не стал им помогать. Он тяжело работал, заботился об отце и отдал все
+                    деньги больной Фее. За доброту и самоотверженность Пиноккио был награждён — он стал настоящим
+                    мальчиком.</p>
             </div>
-            
-            
-        </div>
 
-
-        <!-- AUDIO + text -->
-        <div class="zagolRed">
-            <p>akademia pana kleksa - książka</p>
         </div>
-        <div id="audio">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/iQPuMsCTCaU?si=BY1ymEq5BsEp_Yn2"
-                title="YouTube video player" frameborder="0"></iframe>
-        </div>
-        <div>
-            <p><a href="#" data-start="0" class="seek" style="color: blue;">0:00 - </a> 0:00 Wstęp</p>
-            <p><a href="#" data-start="5" class="seek" style="color: blue;">00:05 - </a> Rozdział I - AKADEMIA PANA
-                KLEKSA </p>
-            <p><a href="#" data-start="1098" class="seek" style="color: blue;">18:18 - </a> Rozdział II – NIEZWYKŁA
-                OPOWIEŚĆ MATEUSZA</p>
-            <p><a href="#" data-start="2624" class="seek" style="color: blue;">43:44 - </a> Rozdział III - OSOBLIWOŚCI
-                PANA KLEKSA</p>
-            <p><a href="#" data-start="4140" class="seek" style="color: blue;">01:09:00 - </a> Rozdział IV - NAUKA W
-                AKADEMII</p>
-            <p><a href="#" data-start="5536" class="seek" style="color: blue;">1:32:17 - </a> Rozdział V - KUCHNIA PANA
-                KLEKSA</p>
-            <p><a href="#" data-start="6803" class="seek" style="color: blue;">1:53:23 - </a> Rozdział VI - MOJA WIELKA
-                PRZYGODA</p>
-            <p><a href="#" data-start="8433" class="seek" style="color: blue;">2:20:33 - </a> Rozdział VII - FABRYKA
-                DZIUR I DZIUREK</p>
-            <p><a href="#" data-start="9774" class="seek" style="color: blue;">2:42:54 - </a> Rozdział VIII - SEN O
-                SIEDMIU SZKLANKACH</p>
-            <p><a href="#" data-start="11678" class="seek" style="color: blue;">3:14:37 - </a> Rozdział IX - ANATOL I
-                ALOJZY</p>
-            <p><a href="#" data-start="12974" class="seek" style="color: blue;">3:36:13 - </a> Rozdział X - HISTORIA O
-                KSIĘŻYCOWYCH LUDZIACH</p>
-            <p><a href="#" data-start="14456" class="seek" style="color: blue;">4:00:56 - </a> Rozdział XI - SEKRETY
-                PANA KLEKSA</p>
-            <p><a href="#" data-start="15713" class="seek" style="color: blue;">4:21:53 - </a> Rozdział XII - POŻEGNANIE
-                Z BAJKĄ</p>
-        </div>
-
-
 
 
         <!-- akademia pana kleksa - zadanie -->
@@ -523,1056 +958,214 @@
         </div>
         <!-- testy -->
         <div>
-            <h5><a href="https://pisupisu.pl/klasa4/akademia-pana-kleksa-cz-1-akademia" target="_blank">„Akademia Pana
-                    Kleksa” TEST 1. Akademia >>></a></h5>
-            <h5><a href="https://pisupisu.pl/klasa4/akademia-pana-kleksa-cz-1-akademia" target="_blank">„Akademia Pana
-                    Kleksa” TEST 2. Mateusz >>></a></h5>
-            <h5><a href="https://pisupisu.pl/klasa4/akademia-pana-kleksa-cz-1-akademia" target="_blank">„Akademia Pana
-                    Kleksa” TEST 3. Pan Kleks >>></a></h5>
-            <h5><a href="https://pisupisu.pl/klasa4/akademia-pana-kleksa-cz-1-akademia" target="_blank">„Akademia Pana
-                    Kleksa” TEST 4. Adaś Niezgódka >>></a></h5>
-            <h5><a href="https://pisupisu.pl/klasa4/akademia-pana-kleksa-cz-1-akademia" target="_blank">„Akademia Pana
-                    Kleksa” TEST 5 >>></a></h5>
-            <h5><a href="https://pisupisu.pl/klasa4/akademia-pana-kleksa-cz-1-akademia" target="_blank">„Akademia Pana
-                    Kleksa” TEST 6 >>></a></h5>
-            <h5><a href="https://www.eduelo.pl/quizy/poziom-iv/jezyk-polski/lektury/akademia-pana-kleksa/"
-                    target="_blank">Akademia Pana Kleksa (Eduelo) >>></a></h5>
+            <h5><a href="https://pisupisu.pl/klasa4/pinokio-test-1" target="_blank">„Pinokio” - test 1 >>></a></h5>
+            <h5><a href="https://pisupisu.pl/klasa4/pinokio-test-2" target="_blank">„Pinokio” - test 2 >>></a></h5>
+            <h5><a href="https://pisupisu.pl/klasa4/pinokio-test-3" target="_blank">„Pinokio” - test 3 >>></a></h5>
+            <h5><a href="https://eduzabawy.com/cwiczenia-online/jezyk_polski/lektury-obowiazkowe-4-6/pinokio/"
+                    target="_blank">Pinokio >>></a></h5>
+            <h5><a href="https://www.quizme.pl/q/lektury-szkolne/pinokio-test" target="_blank">Pinokio - testy z lektury
+                    >>></a></h5>
         </div>
-        <!-- wordwall -->
-        <div>
-            <div class="video">
-                <iframe style="max-width:100%"
-                    src="https://wordwall.net/uk/embed/dc709950bc3d4414abbbec7fa34cf29a?themeId=49&templateId=5&fontStackId=0"
-                    width="500" height="380" frameborder="0" allowfullscreen></iframe>
-            </div>
-            <div class="video">
-                <iframe style="max-width:100%"
-                    src="https://wordwall.net/uk/embed/e5eebee9b8a74d979aa04789baba4cdb?themeId=49&templateId=36&fontStackId=0"
-                    width="500" height="380" frameborder="0" allowfullscreen></iframe>
-            </div>
-            <div class="video">
-                <iframe style="max-width:100%"
-                    src="https://wordwall.net/uk/embed/3cd85bfe9391481c91f04c195d08f133?themeId=65&templateId=5&fontStackId=0"
-                    width="500" height="380" frameborder="0" allowfullscreen></iframe>
-            </div>
-            <div class="video">
-                <iframe style="max-width:100%"
-                    src="https://wordwall.net/uk/embed/e9638b5d27964a998193f1173a668c6d?themeId=66&templateId=5&fontStackId=0"
-                    width="500" height="380" frameborder="0" allowfullscreen></iframe>
-            </div>
-            <div class="video">
-                <iframe style="max-width:100%"
-                    src="https://wordwall.net/uk/embed/ac00c1b9904c479babff2bd641a8e532?themeId=46&templateId=5&fontStackId=0"
-                    width="500" height="380" frameborder="0" allowfullscreen></iframe>
-            </div>
-            <div class="video">
-                <iframe style="max-width:100%"
-                    src="https://wordwall.net/uk/embed/ee4b3aef4ebf42c39dd53e6c24de3041?themeId=49&templateId=5&fontStackId=0"
-                    width="500" height="380" frameborder="0" allowfullscreen></iframe>
-            </div>
-        </div>
+
         <!-- TEST OTWARTY -->
-        <div class="zagolRed">
-            <p>TEST OTWARTY</p>
-        </div>
-        <p class="p35">pytania 1-10</p>
-        <div>
-            <!-- ВОПРОС 1 -->
-            <div class="qa-box">
-                <div class="question">
-                    1. Jak ma na imię główny bohater “Akademii Pana Kleksa”?
-                    <span class="info-icon">ℹ️</span>
-                </div>
-                <div class="answer">Adaś (Adam) Niezgódka</div>
-            </div>
-            <!-- ВОПРОС 2 -->
-            <div class="qa-box">
-                <div class="question">
-                    2. Ile ma lat główny bohater?
-                    <span class="info-icon">ℹ️</span>
-                </div>
-                <div class="answer">12 lat</div>
-            </div>
-            <!-- ВОПРОС 3 -->
-            <div class="qa-box">
-                <div class="question">
-                    3. Czego Adam nie lubi jeść?
-                    <span class="info-icon">ℹ️</span>
-                </div>
-                <div class="answer">Krupniku i marchewki</div>
-            </div>
-            <!-- ВОПРОС 4 -->
-            <div class="qa-box">
-                <div class="question">
-                    4. Na jakiej ulicy mieści się Akademia?
-                    <span class="info-icon">ℹ️</span>
-                </div>
-                <div class="answer">Na ul. Czekoladowej</div>
-            </div>
-            <!-- ВОПРОС 5 -->
-            <div class="qa-box">
-                <div class="question">
-                    5. Na którym piętrze Pan Kleks przechowuje swoje sekrety?
-                    <span class="info-icon">ℹ️</span>
-                </div>
-                <div class="answer">Na trzecim piętrze</div>
-            </div>
-            <!-- ВОПРОС 6 -->
-            <div class="qa-box">
-                <div class="question">
-                    6. Jak Pan Kleks dostaje się na III piętro Akademii?
-                    <span class="info-icon">ℹ️</span>
-                </div>
-                <div class="answer">Dostaje się tam przez komin (wchodzi do swoich sekretów kominem, bo schody są tylko
-                    do II piętra)</div>
-            </div>
-            <!-- ВОПРОС 7 -->
-            <div class="qa-box">
-                <div class="question">
-                    7. Na którym piętrze w budynku akademii znajdują się sale szkolne?
-                    <span class="info-icon">ℹ️</span>
-                </div>
-                <div class="answer">Na parterze</div>
-            </div>
-            <!-- ВОПРОС 8 -->
-            <div class="qa-box">
-                <div class="question">
-                    8. Na którym piętrze znajdują się sypialnie chłopców
-                    <span class="info-icon">ℹ️</span>
-                </div>
-                <div class="answer">Na I piętrze</div>
-            </div>
-            <!-- ВОПРОС 9 -->
-            <div class="qa-box">
-                <div class="question">
-                    9. Na którym piętrze znajduje się jadalnia?
-                    <span class="info-icon">ℹ️</span>
-                </div>
-                <div class="answer">Na pierwszym piętrze (razem z sypialniami)</div>
-            </div>
-            <!-- ВОПРОС 10 -->
-            <div class="qa-box">
-                <div class="question">
-                    10. Co znajduje się na drugim piętrze Akademii?
-                    <span class="info-icon">ℹ️</span>
-                </div>
-                <div class="answer">Mieszka tam Pan Kleks z Mateuszem w jednym pokoju, a reszta pokoi jest zamknięta
-                </div>
-            </div>
-        </div>
-        <!-- 11-20 -->
-        <p class="p35">pytania 11-20</p>
-        <div>
-            <!-- ВОПРОС 11 -->
-            <div class="qa-box">
-                <div class="question">
-                    11. Ilu Adamów jest w Akademii?
-                    <span class="info-icon">ℹ️</span>
-                </div>
-                <div class="answer">👉 <b>W Akademii było 4 Adamów</b>. <br> <b>24 uczniów Akademii pana Kleksa:</b>
-                    <ul>
-                        <li>6 - Antonich</li>
-                        <li>5 - Aleksandrów</li>
-                        <li>4 - Adamów</li>
-                        <li>3 - Andzejów</li>
-                        <li>1 - Albert</li>
-                        <li>1 - Anastazy</li>
-                        <li>1 - Artur</li>
-                    </ul>
-                </div>
-            </div>
-            <!-- ВОПРОС 12 -->
-            <div class="qa-box">
-                <div class="question">
-                    12. Jak ma na imie Pan Kleks?
-                    <span class="info-icon">ℹ️</span>
-                </div>
-                <div class="answer"><b>👉 Ambroży Kleks</b></div>
-            </div>
-            <!-- ВОПРОС 13 -->
-            <div class="qa-box">
-                <div class="question">
-                    13. Kim jest Mateusz?
-                    <span class="info-icon">ℹ️</span>
-                </div>
-                <div class="answer"><b>👉 Mateusz to uczony szpak.</b> Nie jest uczniem.</div>
-            </div>
-            <!-- ВОПРОС 14 -->
-            <div class="qa-box">
-                <div class="question">
-                    14. Jaką przypadłość ma Mateusz?
-                    <span class="info-icon">ℹ️</span>
-                </div>
-                <div class="answer"><b>👉 Wypowiada tylko końcówki wyrazów</b> — mówi nie w pełnych zdaniach, lecz
-                    jedynie ich końcówkami.</div>
-            </div>
-            <!-- ВОПРОС 15 -->
-            <div class="qa-box">
-                <div class="question">
-                    15. Dokąd prowadzą bramy w murze naokoło akademii?
-                    <span class="info-icon">ℹ️</span>
-                </div>
-                <div class="answer"><b>👉 Do różnych bajek</b> — każda furtka prowadzi do innej opowieści lub świata
-                    bajkowego.</div>
-            </div>
-            <!-- ВОПРОС 16 -->
-            <div class="qa-box">
-                <div class="question">
-                    16. Jakie są kłódki zamykające bramy w murze akademii?
-                    <span class="info-icon">ℹ️</span>
-                </div>
-                <div class="answer"><b>👉 Małe srebrne kłódeczki.</b></div>
-            </div>
-            <!-- ВОПРОС 17 -->
-            <div class="qa-box">
-                <div class="question">
-                    17. Do jakich bajek prowadzą bramy w murze?
-                    <span class="info-icon">ℹ️</span>
-                </div>
-                <div class="answer">👉 Ogólnie: do różnych klasycznych bajek — Do baśni Andersena, Dziewczynki z
-                    zapałkami, baśni braci Grimm, bajki o rybaku i rybaczce, o sierotce Marysi i 7 Krasnoludkach, o
-                    Kaczce Dziwaczce</div>
-            </div>
-            <!-- ВОПРОС 18 -->
-            <div class="qa-box">
-                <div class="question">
-                    18. Gdzie Pan Kleks trzyma klucze do bram w murze?
-                    <span class="info-icon">ℹ️</span>
-                </div>
-                <div class="answer">👉 Klucze trzyma w <b>srebrnej szkatule</b>, a sam zawsze wie, który klucz pasuje do
-                    której furtki.</div>
-            </div>
-            <!-- ВОПРОС 19 -->
-            <div class="qa-box">
-                <div class="question">
-                    19. Jakiego koloru włosy ma Adaś?
-                    <span class="info-icon">ℹ️</span>
-                </div>
-                <div class="answer">👉 <b>Rude włosy</b> (Adaś wyróżniał się rudością, dlatego często to on był wysyłany
-                    do bajek).</div>
-            </div>
-            <!-- ВОПРОС 20 -->
-            <div class="qa-box">
-                <div class="question">
-                    20. Po co Adaś był w innych bajkach?
-                    <span class="info-icon">ℹ️</span>
-                </div>
-                <div class="answer">👉 Pan Kleks czasem <b>wysyłał chłopców do bajek po różne sprawunki</b> (np. do
-                    bajki o dziewczynce z zapałkami po paczkę zapałek itp.). Adaś był często wysyłany właśnie z tego
-                    powodu.
-                    <ul>
-                        <li><b>Po zapałki</b> u „Dziewczynki z zapałkami”, </li>
-                        <li><b>po buty</b> z bajki „O kocie w butach”,</li>
-                        <li><b>po kota</b> z bajki „O kocie w butach” bo w akademii były myszy, </li>
-                        <li><b>po miotłę</b> do zamiatania podwórka u czarownicy z bajki o Łysej Górze, </li>
-                        <li>żeby zastąpić jednego z braci z bajki o królewnie i 7 braciach, bo dwaj bracia poszli do
-                            lasu i nie wrócili</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-        <!-- 21-37 -->
-        <p class="p35">pytania 21-37</p>
-        <div>
-            <!-- ВОПРОС 21 -->
-            <div class="qa-box">
-                <div class="question">
-                    21. Co Adaś schował do kieszeni , kiedy wracał z bajki o królewnie i 7 braciach?
-                    <span class="info-icon">ℹ️</span>
-                </div>
-                <div class="answer">👉 Zabrał ze sobą Lodykrzesełko (małą rzecz-pamiątkę z bajki). W książce Adaś wracał
-                    z różnych bajek z jakimiś drobnymi przedmiotami, które tam znalazł.</div>
-            </div>
-            <!-- ВОПРОС 12 -->
-            <div class="qa-box">
-                <div class="question">
-                    22. Gdzie Pan Kleks chował swoje piegi?
-                    <span class="info-icon">ℹ️</span>
-                </div>
-                <div class="answer"><b>👉 Do złotej/tabakierki</b> albo własnej magicznej tabakierki, po czym rano
-                    przyklejał je na nos lub rozdawał uczniom.</div>
-            </div>
-            <!-- ВОПРОС 13 -->
-            <div class="qa-box">
-                <div class="question">
-                    23. Kim jest Filip?
-                    <span class="info-icon">ℹ️</span>
-                </div>
-                <div class="answer"><b>👉 Filip to golarz (fryzjer) – właściciel synów Anatola i Alojzego oraz wróg Pana
-                        Kleksa.</b> </div>
-            </div>
-            <!-- ВОПРОС 14 -->
-            <div class="qa-box">
-                <div class="question">
-                    24. Skąd Filip bierze piegi?
-                    <span class="info-icon">ℹ️</span>
-                </div>
-                <div class="answer">👉 Ściąga je z twarzy klientów podczas golenia.</div>
-            </div>
-            <!-- ВОПРОС 15 -->
-            <div class="qa-box">
-                <div class="question">
-                    25. W jakie dni Filip przychodzi zawsze do Pana Kleksa?
-                    <span class="info-icon">ℹ️</span>
-                </div>
-                <div class="answer">👉Co czwartek.</div>
-            </div>
-            <!-- ВОПРОС 26 -->
-            <div class="qa-box">
-                <div class="question">
-                    26. Kiedy Pan Kleks wypowiada słowa ”No a teraz zażyjemy sobie piegów”?
-                    <span class="info-icon">ℹ️</span>
-                </div>
-                <div class="answer"><b>👉 26. W niedzielę i święta o 11-tej godzinie.</b></div>
-            </div>
-            <!-- ВОПРОС 27 -->
-            <div class="qa-box">
-                <div class="question">
-                    27. Jakie piegi zdaniem Kleksa są najlepsze?
-                    <span class="info-icon">ℹ️</span>
-                </div>
-                <div class="answer">👉 27. Duże żółte i czerwone.</div>
-            </div>
-            <!-- ВОПРОС 28 -->
-            <div class="qa-box">
-                <div class="question">
-                    28. W co wilk ugryzł księcia Mateusza?
-                    <span class="info-icon">ℹ️</span>
-                </div>
-                <div class="answer">👉 👉 Ugryzł go w nogę / w udo, powodując poważną ranę, którą nikt nie umiał
-                    uleczyć..</div>
-            </div>
-            <!-- ВОПРОС 29 -->
-            <div class="qa-box">
-                <div class="question">
-                    29. Co działo się z chłopcem po ugryzieniu?
-                    <span class="info-icon">ℹ️</span>
-                </div>
-                <div class="answer">👉 Rana się nie goiła i krwawiła,29. z uda leciała krew i nie można było jej
-                    zatamować, a chłopiec z dnia na dzień tracił siły i nikt nie potrafił go uleczyć.</div>
-            </div>
-            <!-- ВОПРОС 30 -->
-            <div class="qa-box">
-                <div class="question">
-                    30. Jak nazywał się doktor który wyleczył księcia?
-                    <span class="info-icon">ℹ️</span>
-                </div>
-                <div class="answer">👉 Doktor Paj-Chi-Wo (chiński lekarz-mędrzec).
-                </div>
-            </div>
-            <!-- ВОПРОС 31 -->
-            <div class="qa-box">
-                <div class="question">
-                    31. Co podarował doktor Paj Chi Wo Mateuszowi?
-                    <span class="info-icon">ℹ️</span>
-                </div>
-                <div class="answer">👉 <b>Magiczna czapka Bogdychanów z guzikiem</b>, która pozwalała mu przemienić się
-                    w dowolną postać.</div>
-            </div>
-            <!-- ВОПРОС 32 -->
-            <div class="qa-box">
-                <div class="question">
-                    32. Jak doktor Paj Chi Wo wyleczył chłopca?
-                    <span class="info-icon">ℹ️</span>
-                </div>
-                <div class="answer"><b>👉 Dmuchnął w ranę na nodze.</b></div>
-            </div>
-            <!-- ВОПРОС 33 -->
-            <div class="qa-box">
-                <div class="question">
-                    33. Jakie właściwości miała czapka?
-                    <span class="info-icon">ℹ️</span>
-                </div>
-                <div class="answer">👉 33. Zakładał ją, gdy chciał się w coś zmienić i pociągał za guzik, gdy chciał
-                    powrócić do ludzkiej postaci</div>
-            </div>
-            <!-- ВОПРОС 34 -->
-            <div class="qa-box">
-                <div class="question">
-                    34. Co wilki robiły po wyzdrowieniu chłopca?
-                    <span class="info-icon">ℹ️</span>
-                </div>
-                <div class="answer">👉 34. Napadały na wsie, tratowały żywność, plony, zjadały ludzi, napadły na zamek.
-                </div>
-            </div>
-            <!-- ВОПРОС 35 -->
-            <div class="qa-box">
-                <div class="question">
-                    35. W jaki sposób Mateusz dostał się w posiadanie pana Kleksa?
-                    <span class="info-icon">ℹ️</span>
-                </div>
-                <div class="answer">👉 Pan Kleks kupił go na targu w Salamance</div>
-            </div>
-            <!-- ВОПРОС 36 -->
-            <div class="qa-box">
-                <div class="question">
-                    36. Dlaczego Mateusz nie mógł zamienić się powrotem w chłopca?
-                    <span class="info-icon">ℹ️</span>
-                </div>
-                <div class="answer">👉 Ponieważ zgubił guzik z czapki, który był kluczowy do powrotu do ludzkiej
-                    postaci.</div>
-            </div>
-            <!-- ВОПРОС 37 -->
-            <div class="qa-box">
-                <div class="question">
-                    37. Co zaczął robić Adaś myśląc że odmieni los ptaka?
-                    <span class="info-icon">ℹ️</span>
-                </div>
-                <div class="answer">👉 Postanowił pomóc Mateuszowi odnaleźć zgubiony guzik, zbierał guziki i obiecał, że
-                    spróbuje znaleźć właściwy.</div>
-            </div>
-        </div>
-        <!-- 39-50 -->
-        <p class="p35">pytania 38-50</p>
-        <div>
-            <!-- ВОПРОС 38 -->
-            <div class="qa-box">
-                <div class="question">
-                    38. Co pan Kleks ma w kieszeniach – wymień minimum 5 rzeczy?
-                    <span class="info-icon">ℹ️</span>
-                </div>
-                <div class="answer">
-                    <ul>👉 38.
-                        <li>Flaszkę z zielonym płynem</li>
-                        <li>tabakierkę z piegami</li>
-                        <li>pompkę powiększającą</li>
-                        <li>senny kwas</li>
-                        <li>kolorowe szkiełka</li>
-                        <li>płomyki świec</li>
-                        <li>pigułki na porost włosów</li>
-                        <li>złote kluczyki</li>
-                    </ul> str.- 25
-                </div>
-            </div>
-            <!-- ВОПРОС 39 -->
-            <div class="qa-box">
-                <div class="question">
-                    39. W jakim kształcie są okulary Pana Kleksa?
-                    <span class="info-icon">ℹ️</span>
-                </div>
-                <div class="answer">👉 Okulary (binokle) Pana Kleksa mają kształt <b>roweru</b>.</div>
-            </div>
-            <!-- ВОПРОС 40 -->
-            <div class="qa-box">
-                <div class="question">
-                    40. Gdzie pan Kleks wysyłał swoje oko na oględziny?
-                    <span class="info-icon">ℹ️</span>
-                </div>
-                <div class="answer">👉 40. Do zepsutego <b>tramwaju</b>, <b>do stawu</b>, gdy wpadła mu pompka do wody,
-                    <b>na księżyc</b>.
-                </div>
-            </div>
-            <!-- ВОПРОС 41 -->
-            <div class="qa-box">
-                <div class="question">
-                    41. Jak pan Kleks budzi chłopców?
-                    <span class="info-icon">ℹ️</span>
-                </div>
-                <div class="answer">👉 Chłopców budzi Mateusz: o piątej otwiera nad każdym łóżkiem śluzy w suficie, woda
-                    leje się na śpiących, a oni biegną pod prysznic z soku owocowego.</div>
-            </div>
-            <!-- ВОПРОС 42 -->
-            <div class="qa-box">
-                <div class="question">
-                    42. Jakiego koloru są ubrania chłopców?
-                    <span class="info-icon">ℹ️</span>
-                </div>
-                <div class="answer">
-                    <ul>42. 👉Ubrania chłopców (mundurki):
-                        <li>granatowe koszule</li>
-                        <li>białe długie spodnie</li>
-                        <li>granatowe pończochy i białe trzewiki</li>
-                        <li>za karę – żółty krawat w zielone grochy</li>
-                    </ul>str.-
-                </div>
-            </div>
-            <!-- ВОПРОС 43 -->
-            <div class="qa-box">
-                <div class="question">
-                    43. Jakie właściwości mają sosy pana Kleksa?
-                    <span class="info-icon">ℹ️</span>
-                </div>
-                <div class="answer">
-                    <ul>43. 👉 Właściwości sosów Pana Kleksa:
-                        <li>biały – wzmacnia zęby</li>
-                        <li>niebieski – poprawia wzrok</li>
-                        <li>żółty – reguluje oddech</li>
-                        <li>szary – oczyszcza krew</li>
-                        <li>zielony – usuwa łupież</li>
-                    </ul>
-                </div>
-            </div>
-            <!-- ВОПРОС 44 -->
-            <div class="qa-box">
-                <div class="question">
-                    44. Co pan Kleks robił z lusterkami sennymi?
-                    <span class="info-icon">ℹ️</span>
-                </div>
-                <div class="answer">👉 Z lusterkami sennymi pan Kleks robi tak: przez szafę odbiera je od chłopców,
-                    ogląda sny; złe lusterka wyrzuca, z najlepszych zmywa sny sennym kwasem, suszy i robi z nich
-                    tabletki do połykania, a najładniejsze sny zapisuje w senniku.(str. 31)</div>
-            </div>
-            <!-- ВОПРОС 45 -->
-            <div class="qa-box">
-                <div class="question">
-                    45. Jakie przedmioty pan Kleks wykładał w akademii?
-                    <span class="info-icon">ℹ️</span>
-                </div>
-                <div class="answer">45. 👉 Przedmioty, które pan Kleks wykłada w Akademii, to m.in.:
-                    <ul>
-                        <li>kleksografia</li>
-                        <li>przędzenie liter</li>
-                        <li>geografia (z piłką-globusem)</li>
-                        <li>leczenie chorych sprzętów (szpital chorych sprzętów).</li>
-                    </ul>
-                </div>
-            </div>
-            <!-- ВОПРОС 46 -->
-            <div class="qa-box">
-                <div class="question">
-                    46. Na czym polegała lekcja kleksografii?
-                    <span class="info-icon">ℹ️</span>
-                </div>
-                <div class="answer">46. 👉 Lekcja kleksografii: na kartce robi się atramentowe kleksy, składa się kartkę
-                    na pół, żeby kleksy się odbiły i utworzyły różne kształty, a potem wymyśla się do nich historyjki.
-                </div>
-            </div>
-            <!-- ВОПРОС 47 -->
-            <div class="qa-box">
-                <div class="question">
-                    47. Na czym polegała lekcja geografii
-                    <span class="info-icon">ℹ️</span>
-                </div>
-                <div class="answer">47. 👉 Lekcja geografii polegała na grze w piłkę nożną globusem – kto kopnął piłkę,
-                    musiał podać nazwę miejsca na Ziemi, w które „trafiła” piłka.
-                </div>
-            </div>
-            <!-- ВОПРОС 48 -->
-            <div class="qa-box">
-                <div class="question">
-                    48. Na czym polegała lekcja przędzenia liter?
-                    <span class="info-icon">ℹ️</span>
-                </div>
-                <div class="answer">48. 👉 Lekcja przędzenia liter: chłopcy „przędli” litery z książek, robili z nich
-                    nitki i nawijali na szpulki; potem mieli się uczyć wiązać na tych nitkach supełki i czytać palcami.
-                </div>
-            </div>
-            <!-- ВОПРОС 49 -->
-            <div class="qa-box">
-                <div class="question">
-                    49. Po co były Panu Kleksowi te szpulki z nitkami z literek?
-                    <span class="info-icon">ℹ️</span>
-                </div>
-                <div class="answer">49. 👉 Szpulki z nitkami z literek były potrzebne po to, żeby uczyć się robić
-                    supełki na nitkach i czytać palcami (jak niewidomi).</div>
-            </div>
-            <!-- ВОПРОС 50 -->
-            <div class="qa-box">
-                <div class="question">
-                    50. Jaka gra sportowa była lekcją geografii?
-                    <span class="info-icon">ℹ️</span>
-                </div>
-                <div class="answer">👉 50. Grą sportową, która była lekcją geografii, była piłka nożna (piłką był
-                    globus).</div>
-            </div>
-        </div>
-        <!-- 51-68 -->
-        <p class="p35">pytania 51-68</p>
-        <div>
-            <!-- ВОПРОС 51 -->
-            <div class="qa-box">
-                <div class="question">
-                    51. Co pan Kleks zgubił w pokoju chorych sprzętów i kto to znalazł?
-                    <span class="info-icon">ℹ️</span>
-                </div>
-                <div class="answer">
-                    👉 51. Pan Kleks zgubił <b>złotą wykałaczkę</b>, znalazł ja zegar z pomocą <b>pieca</b>, który mówił
-                    zimno-ciepło.
-                </div>
-            </div>
-            <!-- ВОПРОС 52 -->
-            <div class="qa-box">
-                <div class="question">
-                    52. Gdzie był zagubiony przedmiot?
-                    <span class="info-icon">ℹ️</span>
-                </div>
-                <div class="answer">👉 52. Na zasłonie</div>
-            </div>
-            <!-- ВОПРОС 53 -->
-            <div class="qa-box">
-                <div class="question">
-                    53. Do jakiej bajki chłopcy wykopali piłkę podczas lekcji geografii?
-                    <span class="info-icon">ℹ️</span>
-                </div>
-                <div class="answer">53. 👉 W książce podczas gry piłką-globusem, Adaś przenosi się do „bajki o królewnie
-                    i siedmiu braciach”, gdzie wykopuje piłkę. (Jego zabawa globusem prowadzi go do tej opowieści.)
-                </div>
-            </div>
-            <!-- ВОПРОС 54 -->
-            <div class="qa-box">
-                <div class="question">
-                    54. Jakie szkody wyrządziła królewnie piłka?
-                    <span class="info-icon">ℹ️</span>
-                </div>
-                <div class="answer">👉 54. Potłukła jej zabawki (str.38)</div>
-            </div>
-            <!-- ВОПРОС 55 -->
-            <div class="qa-box">
-                <div class="question">
-                    55. Pod jakim warunkiem królewna oddała chłopcom piłkę?
-                    <span class="info-icon">ℹ️</span>
-                </div>
-                <div class="answer">
-                    👉 55. Królewna chciała, żeby chłopcy nauczyli jej krasnoludki geografii.(str.38)
-                </div>
-            </div>
-            <!-- ВОПРОС 56 -->
-            <div class="qa-box">
-                <div class="question">
-                    56. Co stało się z królewną Śnieżką gdy przyszła oddać piłkę?
-                    <span class="info-icon">ℹ️</span>
-                </div>
-                <div class="answer">
-                    👉 56. Razem z krasnoludkami stopniała i popłynęli strumykiem do furtki w murze
-                </div>
-            </div>
-            <!-- ВОПРОС 57 -->
-            <div class="qa-box">
-                <div class="question">
-                    57. Do jakich celów pan Kleks używa oliwiarki?
-                    <span class="info-icon">ℹ️</span>
-                </div>
-                <div class="answer">57. 👉 Oliwiarka była używana w Akademii do nasmarowania narzędzi, maszyn, zawiasów
-                    w Akademii oraz tartacznej zabawy, pomagając w naprawianiu i tworzeniu rzeczy w Akademii. (Pan Kleks
-                    był wynalazczy i „olej” w jego świecie często działał jak magiczny uniwersalny preparat.) – ten
-                    motyw krąży w interpretacjach fabuły.</div>
-            </div>
-            <!-- ВОПРОС 58 -->
-            <div class="qa-box">
-                <div class="question">
-                    58. Co najczęściej Pan Kleks jada na śniadanie?
-                    <span class="info-icon">ℹ️</span>
-                </div>
-                <div class="answer">👉 58. Kilka kulek kolorowego szkła i popija zielonym płynem. Czasem motyle. (str.
-                    42)
-                </div>
-            </div>
-            <!-- ВОПРОС 59 -->
-            <div class="qa-box">
-                <div class="question">
-                    59. Jakie ma działanie zielony płyn?
-                    <span class="info-icon">ℹ️</span>
-                </div>
-                <div class="answer">59. 👉 Zielony płyn przywraca pamięć Panu Kleksowi, gdy go wypije.</div>
-            </div>
-            <!-- ВОПРОС 60 -->
-            <div class="qa-box">
-                <div class="question">
-                    60. Co pan Kleks musi zrobić rano żeby być „normalny”?
-                    <span class="info-icon">ℹ️</span>
-                </div>
-                <div class="answer">60. 👉 Rano musi założyć swoje piegi z tabakierki na twarz, co przywraca mu pełnię
-                    mocy i „normalność” (Pan Kleks codziennie zakładał piegi na twarz, a każda konfiguracja była inna).
-                    Musi napić się zielonego płynu i połknąć pastylki na porost włosów.
-                </div>
-            </div>
-            <!-- ВОПРОС 61 -->
-            <div class="qa-box">
-                <div class="question">
-                    61. Jakie jest przeznaczenie tylnej kieszeni w surducie Pana Kleksa?
-                    <span class="info-icon">ℹ️</span>
-                </div>
-                <div class="answer">61. 👉 Dla szpaka Mateusza, może on przebywać w kieszeni, kiedy tylko ma na to
-                    ochotę</div>
-            </div>
-            <!-- ВОПРОС 62 -->
-            <div class="qa-box">
-                <div class="question">
-                    62. Jakie funkcje gospodarskie musza wykonywać chłopcy w akademii. Wymień min 5.
-                    <span class="info-icon">ℹ️</span>
-                </div>
-                <div class="answer">62. 👉
-                    <ul>
-                        <li>Otwieranie i zamykanie bramy</li>
-                        <li>Zarządzanie balonami pana Kleksa</li>
-                        <li>Zajmowanie się garderobą i bielizną, czyszczenie jej, cerowanie, szycie</li>
-                        <li>Sprzątanie parku i boiska</li>
-                        <li>Podawanie do stołu</li>
-                        <li>Mycie naczyń</li>
-                        <li>Mycie schodów, jadalni i sypialni</li>
-                        <li>Sprzątanie Sali szkolnej</li>
-                    </ul>
-                </div>
-            </div>
-            <!-- ВОПРОС 63 -->
-            <div class="qa-box">
-                <div class="question">
-                    63. Jaka rola gospodarska przypadła Adamowi Niezgódce?
-                    <span class="info-icon">ℹ️</span>
-                </div>
-                <div class="answer">👉 63. Wydzielanie soków do mycia i sosu do obiadu, a później został pomocnikiem
-                    pana Kleksa w kuchni</div>
-            </div>
-            <!-- ВОПРОС 64 -->
-            <div class="qa-box">
-                <div class="question">
-                    64. Jakie właściwości miały piegi?
-                    <span class="info-icon">ℹ️</span>
-                </div>
-                <div class="answer">64. 👉 Piegi "doskonale wpływały na rozum" i „chroniły przed katarem”, a także były
-                    nagrodą dla wyróżniających się chłopców.
-                </div>
-            </div>
-            <!-- ВОПРОС 65 -->
-            <div class="qa-box">
-                <div class="question">
-                    65. Dlaczego piegi na twarzy pana Kleksa codziennie zmieniały swoje położenie?
-                    <span class="info-icon">ℹ️</span>
-                </div>
-                <div class="answer">65. 👉 Ponieważ Pan Kleks zdejmuje piegi na noc i wkłada je rano, zakładając je na
-                    nowo – często w innym układzie.
-                </div>
-            </div>
-            <!-- ВОПРОС 66 -->
-            <div class="qa-box">
-                <div class="question">
-                    66. Jaką nagrodę otrzymywał uczeń, który wyróżnił się podczas lekcji?
-                    <span class="info-icon">ℹ️</span>
-                </div>
-                <div class="answer">66. 👉 Piegi – były najwyższym wyróżnieniem w Akademii.
-                </div>
-            </div>
-            <!-- ВОПРОС 67 -->
-            <div class="qa-box">
-                <div class="question">
-                    67. Jaką metodę na małomównego Mateusza ma pan Kleks?
-                    <span class="info-icon">ℹ️</span>
-                </div>
-                <div class="answer">67. 👉 Pan Kleks używał piegi jako przysmaku, żeby zachęcić Mateusza do mówienia.
-                    Mateusz uwielbiał piegi, więc Kleks dawał mu je jako nagrodę.
-                </div>
-            </div>
-            <!-- ВОПРОС 68 -->
-            <div class="qa-box">
-                <div class="question">
-                    68. W jaki sposób Adaś zdobył piegi, które podarował Mateuszowi?
-                    <span class="info-icon">ℹ️</span>
-                </div>
-                <div class="answer">68. 👉 Adaś zbierał <b>piegi, które Pan Kleks zgubił</b> i potem dał je Mateuszowi,
-                    by zdobyć jego przyjaźń.
-                </div>
-            </div>
-        </div>
-        <!-- 69-82 -->
-        <p class="p35">pytania 69-82</p>
-        <div>
-            <!-- ВОПРОС 69 -->
-            <div class="qa-box">
-                <div class="question">
-                    69. Kim był Mateusz, kiedy nie był ptakiem?
-                    <span class="info-icon">ℹ️</span>
-                </div>
-                <div class="answer">
-                    Był księciem, następcą tronu potężnego króla.
-                </div>
-            </div>
-            <!-- ВОПРОС 70 -->
-            <div class="qa-box">
-                <div class="question">
-                    70. Jakim ptakiem jest Mateusz?
-                    <span class="info-icon">ℹ️</span>
-                </div>
-                <div class="answer">
-                    Jest szpakiem (uczonym, mówiącym szpakiem).
-                </div>
-            </div>
-            <!-- ВОПРОС 71 -->
-            <div class="qa-box">
-                <div class="question">
-                    71. Co lubił robić książę Mateusz?
-                    <span class="info-icon">ℹ️</span>
-                </div>
-                <div class="answer">
-                    Najbardziej lubił jazdę konną i polowania.
-                </div>
-            </div>
-            <!-- ВОПРОС 72 -->
-            <div class="qa-box">
-                <div class="question">
-                    72. Ile rodzeństwa miał Mateusz?
-                    <span class="info-icon">ℹ️</span>
-                </div>
-                <div class="answer">
-                    Miał cztery siostry.
-                </div>
-            </div>
-            <!-- ВОПРОС 73 -->
-            <div class="qa-box">
-                <div class="question">
-                    73. Jaki zakaz złamał książę?
-                    <span class="info-icon">ℹ️</span>
-                </div>
-                <div class="answer">
-                    Złamał zakaz ojca zabraniający mu jazdy konnej i polowania przed ukończeniem czternastu lat – nocą
-                    wymknął się z pałacu na koniu do lasu.
-                </div>
-            </div>
-            <!-- ВОПРОС 74 -->
-            <div class="qa-box">
-                <div class="question">
-                    74. Gdzie śpi pan Kleks i Mateusz?
-                    <span class="info-icon">ℹ️</span>
-                </div>
-                <div class="answer">
-                    W jednym pokoju na drugim piętrze Akademii Pana Kleksa.
-                </div>
-            </div>
-            <!-- ВОПРОС 75 -->
-            <div class="qa-box">
-                <div class="question">
-                    75. Co było w dużym słoju na blacie w kuchni?
-                    <span class="info-icon">ℹ️</span>
-                </div>
-                <div class="answer">
-                    W dużym, pękatym szklanym słoju były płomyki świec.
-                </div>
-            </div>
-            <!-- ВОПРОС 76 -->
-            <div class="qa-box">
-                <div class="question">
-                    76. Jak Kleks ugotował omlet ze szpinakiem?
-                    <span class="info-icon">ℹ️</span>
-                </div>
-                <div class="answer">
-                    Porwał pędzel, umoczył go w jadalnych farbach, namalował omlet i szpinak, wrzucił do środka płomyk
-                    świecy, a potem tak „ugotowany” omlet wyłożył na talerz.
-                </div>
-            </div>
-            <!-- ВОПРОС 77 -->
-            <div class="qa-box">
-                <div class="question">
-                    77. Jakie smaki mają farby Pana Kleksa?
-                    <span class="info-icon">ℹ️</span>
-                </div>
-                <div class="answer">
-                    Niebieska farba jest kwaśna, zielona słodka, czerwona gorzka, żółta słona; z ich mieszanek powstają
-                    inne smaki (np. waniliowy, czekoladowy, ananasowy).
-                </div>
-            </div>
-            <!-- ВОПРОС 78 -->
-            <div class="qa-box">
-                <div class="question">
-                    78. Dlaczego w akademii są tylko chłopcy z imionami na literę A?
-                    <span class="info-icon">ℹ️</span>
-                </div>
-                <div class="answer">
-                    Bo pan Kleks nie chce „zaśmiecać sobie głowy” wszystkimi literami alfabetu i przyjmuje tylko
-                    chłopców, których imiona zaczynają się na literę A.
-                </div>
-            </div>
-            <!-- ВОПРОС 79 -->
-            <div class="qa-box">
-                <div class="question">
-                    79. Do jakiego drzewa weszli Adam i Artur podczas zabawy w poszukiwanie skarbów?
-                    <span class="info-icon">ℹ️</span>
-                </div>
-                <div class="answer">
-                    Weszli do olbrzymiego dębu.
-                </div>
-            </div>
-            <!-- ВОПРОС 80 -->
-            <div class="qa-box">
-                <div class="question">
-                    80. Ile schodów było w dębie
-                    <span class="info-icon">ℹ️</span>
-                </div>
-                <div class="answer">
-                    Było ich 237 (dwieście trzydzieści siedem).
-                </div>
-            </div>
-            <!-- ВОПРОС 81 -->
-            <div class="qa-box">
-                <div class="question">
-                    81. Co chłopcy znaleźli na dnie pieczary w dębie w czasie zabawy w poszukiwanie skarbów?
-                    <span class="info-icon">ℹ️</span>
-                </div>
-                <div class="answer">
-                    Na dnie pieczary znaleźli ogromną salę, w której stały trzy żelazne skrzynie.
-                </div>
-            </div>
-            <!-- ВОПРОС 82 -->
-            <div class="qa-box">
-                <div class="question">
-                    82. Co było w trzech skrzyniach w dębie w czasie zabawy w poszukiwanie skarbów, na dnie pieczary?
-                    <span class="info-icon">ℹ️</span>
-                </div>
-                <div class="answer">
-                    W pierwszej skrzyni była Królewna Żabka, w drugiej mały złoty gwizdek, a w trzeciej maleńki złoty
-                    kluczyk.
-                </div>
-            </div>
-        </div>
-        <!-- 83-100 -->
-        <p class="p35">pytania 83-100</p>
-        <div>
-            <!-- ВОПРОС 83 -->
-            <div class="qa-box">
-                <div class="question">
-                    83. Jak Adaś trafił do Psiego Raju?
-                    <span class="info-icon">ℹ️</span>
-                </div>
-                <div class="answer">
-                    Nabrał powietrza w usta i zaczął latać, a że nie umiał kierować lotem to cały czas się unosił
+        <section>
+            <div class="zagolRed">
+                <p id="pytania">TEST OTWARTY</p>
+            </div>
+            <p class="p35">pytania 1-15</p>
+            <div>
+                <!-- ВОПРОС 1 -->
+                <div class="qa-box">
+                    <div class="question">
+                        1. Dlaczego Pinokio chciał stać się prawdziwym chłopcem?
+                        <span class="info-icon">ℹ️</span>
+                    </div>
+                    <div class="answer">Pinokio pragnął stać się prawdziwym chłopcem, ponieważ chciał być jak inne
+                        dzieci,
+                        czuć się akceptowanym i spełniać marzenia swojego ojca, Dżepetta. <br>Cytat: „Marzę o tym, żeby
+                        stać
+                        się prawdziwym chłopcem i uszczęśliwić mojego tatę, Dżepetta.”</div>
+                </div>
+                <!-- ВОПРОС 2 -->
+                <div class="qa-box">
+                    <div class="question">
+                        2. Jakie były konsekwencje kłamstw Pinokia?
+                        <span class="info-icon">ℹ️</span>
+                    </div>
+                    <div class="answer">Za każdym razem, gdy Pinokio kłamał, jego nos rósł, co przypominało mu, że
+                        kłamstwo
+                        jest złe i przynosi tylko problemy. <br>Cytat: „Za każdym razem, gdy kłamałem, mój nos rósł,
+                        przypominając mi, jak ważna jest prawda.”</div>
+                </div>
+                <!-- ВОПРОС 3 -->
+                <div class="qa-box">
+                    <div class="question">
+                        3. W jaki sposób Wróżka o Niebieskich Włosach pomagała Pinokiowi?
+                        <span class="info-icon">ℹ️</span>
+                    </div>
+                    <div class="answer">Wróżka opiekowała się Pinokiem, udzielała mu rad i pomagała w trudnych chwilach,
+                        prowadząc go ku właściwej drodze. <br>Cytat: „Wróżka zawsze była przy mnie, kiedy jej
+                        potrzebowałem,
+                        pokazując mi, co znaczy prawdziwa miłość i wsparcie.”</div>
+                </div>
+                <!-- ВОПРОС 4 -->
+                <div class="qa-box">
+                    <div class="question">
+                        4. Jakie lekcje Pinokio wyniósł ze swoich przygód?
+                        <span class="info-icon">ℹ️</span>
+                    </div>
+                    <div class="answer">Pinokio nauczył się, że kłamstwo ma swoje konsekwencje, a odpowiedzialność i
+                        uczciwość są kluczowe do stania się dobrym człowiekiem. <br>Cytat: „Odpowiedzialność za moje
+                        czyny
+                        to pierwszy krok do stania się prawdziwym chłopcem.”
+
+                    </div>
+                </div>
+                <!-- ВОПРОС 5 -->
+                <div class="qa-box">
+                    <div class="question">
+                        5. Jakie znaczenie ma postać Dżepetta w życiu Pinokia?
+                        <span class="info-icon">ℹ️</span>
+                    </div>
+                    <div class="answer">Dżepetto jest ojcem Pinokia, który kocha go bezwarunkowo i pragnie jego
+                        szczęścia. Jego miłość i troska są motorem napędowym przemiany Pinokia. <br>Cytat: „Dżepetto
+                        kochał mnie, nawet gdy byłem tylko drewnianą kukiełką – chciałem spełnić jego marzenie i stać
+                        się prawdziwym chłopcem.”</div>
+                </div>
+                <!-- ВОПРОС 6 -->
+                <div class="qa-box">
+                    <div class="question">
+                        6. Co symbolizuje rosnący nos Pinokia?
+                        <span class="info-icon">ℹ️</span>
+                    </div>
+                    <div class="answer">Nos Pinokia symbolizuje skutki kłamstwa i brak uczciwości. Za każde kłamstwo nos
+                        się wydłuża, co pokazuje, że kłamstwo ma konsekwencje. <br>Cytat: „Za każdym razem, gdy
+                        kłamałem, mój nos rósł, przypominając mi, jak ważna jest prawda.”</div>
+                </div>
+                <!-- ВОПРОС 7 -->
+                <div class="qa-box">
+                    <div class="question">
+                        7. Jakie przygody Pinokio przeżywa w trakcie swojej podróży?
+                        <span class="info-icon">ℹ️</span>
+                    </div>
+                    <div class="answer">Pinokio spotyka wiele postaci, wpada w kłopoty, uczy się ważnych lekcji i
+                        przechodzi przez różne niebezpieczeństwa, które pomagają mu dorosnąć. <br>Cytat: „Każda przygoda
+                        uczyła mnie czegoś nowego o życiu i o sobie.”</div>
+                </div>
+                <!-- ВОПРОС 8 -->
+                <div class="qa-box">
+                    <div class="question">
+                        8. Dlaczego Pinokio ucieka ze szkoły?
+                        <span class="info-icon">ℹ️</span>
+                    </div>
+                    <div class="answer">Pinokio ucieka ze szkoły, bo woli zabawę i przygody niż naukę, co prowadzi go do
+                        wielu problemów. <br>Cytat: „Wolałem biegać i bawić się niż siedzieć w ławce i się uczyć.”</div>
+                </div>
+                <!-- ВОПРОС 9 -->
+                <div class="qa-box">
+                    <div class="question">
+                        9. Jakie znaczenie ma postać lisa i kota w historii?
+                        <span class="info-icon">ℹ️</span>
+                    </div>
+                    <div class="answer">Lis i kot to oszuści, którzy chcą wykorzystać Pinokia, ucząc czytelników, że
+                        trzeba być ostrożnym i nie ufać każdemu. <br>Cytat: „Lis i Kot chcieli wykorzystać naiwność
+                        Pinokia.”</div>
+                </div>
+                <!-- ВОПРОС 10 -->
+                <div class="qa-box">
+                    <div class="question">
+                        10. Jak Pinokio odnajduje swojego ojca Gepetta?
+                        <span class="info-icon">ℹ️</span>
+                    </div>
+                    <div class="answer">Pinokio odnajduje Gepetta po wielu przygodach, nawet gdy zostaje połknięty przez
+                        wieloryba, co pokazuje siłę rodzinnych więzi. <br> Cytat: „Wieloryb nie mógł nas rozdzielić – w
+                        końcu znaleźliśmy się razem.”
+                    </div>
                 </div>
             </div>
 
-            <!-- ВОПРОС 84 -->
-            <div class="qa-box">
-                <div class="question">
-                    84. Gdzie znajduje się Psi Raj?
-                    <span class="info-icon">ℹ️</span>
+            <div>
+                <!-- ВОПРОС 11 -->
+                <div class="qa-box">
+                    <div class="question">
+                        11. Co Pinokio rozumie o pracy i obowiązkach?
+                        <span class="info-icon">ℹ️</span>
+                    </div>
+                    <div class="answer">Pinokio uczy się, że praca i odpowiedzialność są ważne, aby stać się dobrym i
+                        prawdziwym człowiekiem. <br> Cytat: „Praca to nie kara, lecz droga do szczęścia i wolności.”
+                    </div>
                 </div>
-                <div class="answer">
-                    W drodze do ludzkiego raju.
+                <!-- ВОПРОС 12 -->
+                <div class="qa-box">
+                    <div class="question">
+                        12. Jakie znaczenie ma przemiana Pinokia w prawdziwego chłopca?
+                        <span class="info-icon">ℹ️</span>
+                    </div>
+                    <div class="answer">Przemiana symbolizuje nagrodę za naukę, dojrzałość i dobre serce, które Pinokio
+                        zdobywa dzięki swoim doświadczeniom. <br>Cytat: „Stałem się prawdziwym chłopcem, bo nauczyłem
+                        się kochać i być uczciwym.”</div>
                 </div>
-            </div>
-
-            <!-- ВОПРОС 85 -->
-            <div class="qa-box">
-                <div class="question">
-                    85. Kto otworzył drzwi do Psiego Raju?
-                    <span class="info-icon">ℹ️</span>
+                <!-- ВОПРОС 13 -->
+                <div class="qa-box">
+                    <div class="question">
+                        13. Jakie wartości przekazuje książka „Pinokio”?
+                        <span class="info-icon">ℹ️</span>
+                    </div>
+                    <div class="answer">Książka uczy o uczciwości, odpowiedzialności, miłości, pracy i sile
+                        przemiany.<br>Cytat: „Każdy może się zmienić, jeśli tylko chce i uczy się na błędach.”</div>
                 </div>
-                <div class="answer">
-                    Drzwi otworzyłi buldog, pudel i Reks.
+                <!-- ВОПРОС 14 -->
+                <div class="qa-box">
+                    <div class="question">
+                        14. Dlaczego Pinokio czasem popełnia błędy?
+                        <span class="info-icon">ℹ️</span>
+                    </div>
+                    <div class="answer">Ponieważ jest jeszcze dzieckiem i uczy się życia, popełnia błędy, które pomagają
+                        mu dorosnąć. <br>Cytat: „Błędy są częścią nauki i drogi do bycia lepszym.”</div>
                 </div>
-            </div>
-
-            <!-- ВОПРОС 86 -->
-            <div class="qa-box">
-                <div class="question">
-                    86. Co jadały psy w Psim Raju?
-                    <span class="info-icon">ℹ️</span>
-                </div>
-                <div class="answer">
-                    Psy jadły kotlety z kości, pieczeń z kości, zupy i budynie kostne – wszystko przygotowane z kości.
-                    96. Gałęzie drzew – kości, były krzaki serdelkowe i kiełbasiane, z kranu leciało mleko waniliowe, na
-                    ulicy Biszkoptowej były biszkopty.
-                </div>
-            </div>
-
-            <!-- ВОПРОС 87 -->
-            <div class="qa-box">
-                <div class="question">
-                    87. Kto i jak pomógł Adasiowi wydostać się z Psiego Raju?
-                    <span class="info-icon">ℹ️</span>
-                </div>
-                <div class="answer">
-                    Mateusz przyleciał z listem od pana Kleksa. W liście były instrukcje jak sterować lotem.
-                </div>
-            </div>
-
-            <!-- ВОПРОС 88 -->
-            <div class="qa-box">
-                <div class="question">
-                    88. Co Adaś dostał od psa Toma?
-                    <span class="info-icon">ℹ️</span>
-                </div>
-                <div class="answer">
-                    Guzik
+                <!-- ВОПРОС 15 -->
+                <div class="qa-box">
+                    <div class="question">
+                        15. Jakie znaczenie ma miłość Gepetta dla Pinokia?
+                        <span class="info-icon">ℹ️</span>
+                    </div>
+                    <div class="answer">Miłość Gepetta daje Pinokiowi siłę i motywację do zmiany i stania się prawdziwym
+                        chłopcem. <br>Cytat: „Miłość ojca była moim największym skarbem i siłą.” </div>
                 </div>
             </div>
-
-            <!-- ВОПРОС 89 -->
-            <div class="qa-box">
-                <div class="question">
-                    89. Ile trwała nieobecność Adasia podczas wizyty w Psim Raju?
-                    <span class="info-icon">ℹ️</span>
-                </div>
-                <div class="answer">
-                    Jego nieobecność trwała kilka minut, choć Adaś miał wrażenie, że minęło dużo więcej czasu.
-                </div>
+        </section>
+        <!-- GATUNEK -->
+        <section>
+            <div class="zagolRed">
+                <p id="gatunek">GATUNEK</p>
             </div>
-
-            <!-- ВОПРОС 90 -->
-            <div class="qa-box">
-                <div class="question">
-                    90. Jaką fabrykę zwiedzali chłopcy?
-                    <span class="info-icon">ℹ️</span>
-                </div>
-                <div class="answer">
-                    Zwiedzali fabrykę dziur i dziurek.
-                </div>
+            <div class="text">
+                <p>Pinokio to <b>powieść przygodowa</b>, co oznacza, że najważniejsze w niej są liczne przygody bohatera, o których opowiada nam narrator. Gatunek ten należy do epiki. Występuje w nim narrator, czyli osoba, która opowiada, bohaterowie, możemy wskazać kolejne wydarzenia.</p>
+                <p>Powieść Carla Collodiego ma również liczne cechy, które zwykle przypisujemy baśni (choć choć sama się do tego gatunku nie zalicza). <b>Cechy baśni w Pinokiu</b>:</p>
+                <ul>
+                    <li>
+                        <b>nie znamy dokładnego czasu ani miejsca akcji</b> – nie wiemy, kiedy ani w jakim kraju mają miejsce przygody Pinokia; w powieści występuje wiele miejsc fantastycznych (m.in. Kraina Zabawek, Miasto Głupców), co dowodzi, że nie jest to świat, w którym żyjemy; występują tu liczne postacie fantastyczne (wielki rekin, Gadający Świerszcz, Niebieska Wróżka, Pinokio, mówiące zwierzęta i lalki żyjące wspólnie z ludźmi);
+                    </li>
+                    <li>
+                        <b>postaciom często przydarzają się fantastyczne przygody</b>, czyli takie, które nie mogłyby się zdarzyć w realnym świecie, np. zamiana chłopca w osła, połknięcie przez wielkiego rekina i ucieczka z jego brzucha, przeistoczenie drewnianej lalki w prawdziwego chłopca;
+                    </li>
+                    <li>
+                        <b>powieść ta ma charakter dydaktyczny</b> (uczy nas czegoś) – na przykładzie losów głównego bohatera widzimy, jak powinniśmy postępować, i uczymy się, jakie są konsekwencje bycia niegrzecznym;
+                    </li>
+                    <li>
+                        Pinokio to <b>utwór z morałem</b>, czyli pouczającym wnioskiem, wypowiedzianym wprost lub pozostawionym do odkrycia przez czytelnika. 
+                    </li>
+                </ul>
+                <p>Powieść jest zbudowana z trzydziestu sześciu rozdziałów. Każdy z nich nosi tytuł będący streszczeniem wydarzeń, jakie w nim nastąpią. Narrator, czyli osoba opowiadająca, zwraca się czasem bezpośrednio do nas, czytelników – np. za pośrednictwem zwrotów: „jak możecie sobie wyobrazić…”, „wyobraźcie sobie…”, „jak zobaczycie…”, których używa w najciekawszych momentach książki, by rozbudzić naszą ciekawość i uwagę.</p>
             </div>
-
-            <!-- ВОПРОС 91 -->
-            <div class="qa-box">
-                <div class="question">
-                    91. Jakie środki lokomocji i urządzenia zaprowadziły chłopców do fabryki?
-                    <span class="info-icon">ℹ️</span>
-                </div>
-                <div class="answer">
-                    Tramwajem, samogrającym mostem, ruchomym chodnikiem.
-                </div>
-            </div>
-            <!-- ВОПРОС 92 -->
-            <div class="qa-box">
-                <div class="question">
-                    92. Które dziurki w fabryce Pan Kleks wymienił na nowe?
-                    <span class="info-icon">ℹ️</span>
-                </div>
-                <div class="answer">
-                    Od nosa
-                </div>
-            </div>
-
-            <!-- ВОПРОС 93 -->
-            <div class="qa-box">
-                <div class="question">
-                    93. Co zastali chłopcy w akademii po powrocie z fabryki?
-                    <span class="info-icon">ℹ️</span>
-                </div>
-                <div class="answer">
-                    Zastali Akademię całkowicie opanowaną przez muchy – było ich pełno w każdym pomieszczeniu.
-                </div>
-            </div>
-
-            <!-- ВОПРОС 94 -->
-            <div class="qa-box">
-                <div class="question">
-                    94. W jaki sposób chłopcy i Pan Kleks walczyli z muchami?
-                    <span class="info-icon">ℹ️</span>
-                </div>
-                <div class="answer">
-                    Wchodzili na drabiny i strącali muchy specjalnymi packami; Kleks dodatkowo używał zaczarowanych
-                    narzędzi i płynów, które ogłuszały owady.
-                </div>
-            </div>
-
-            <!-- ВОПРОС 95 -->
-            <div class="qa-box">
-                <div class="question">
-                    95. Czym wywieziono martwe muchy?
-                    <span class="info-icon">ℹ️</span>
-                </div>
-                <div class="answer">
-                    3 ciężarówkami z Zakładu Oczyszczania Miasta
-                </div>
-            </div>
-        </div>
-
-
-
-
-
-
-
+        </section>
 
 
     </main>
     <script src="../script.js"></script>
     <script src="../videoPlayer.js"></script>
     <script src="../questions.js"></script>
+    <script src="../button.js"></script>
 </body>
 
 </html>

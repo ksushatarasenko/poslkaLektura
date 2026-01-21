@@ -475,3 +475,15 @@ button:hover {
         display: block;
         opacity: 1;
     }
+
+    /* zwuk */
+
+    .zwuk{
+        width: 40%;
+        margin: 0 auto;
+        height: 100px;
+    }
+    .zwuk>iframe{
+        width: 100%;
+        height: 100%;
+    }
